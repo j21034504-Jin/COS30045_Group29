@@ -38,11 +38,11 @@ Dataset: [Hospitalised Injury Data](https://www.bitre.gov.au/resource/road-safet
 - Deploy the completed website on Swinburne Mercury.
 
 ### Team
-Team Name: [Enter team name]
+Team Name: 
 
 Team Members:
-- [Student 1]
-- [Student 2]
+- Chong Jin Cheng  
+- Soon Mung Hing
 
 ### Academic Integrity
 Generative AI assistance will be acknowledged in the Design Book and relevant source-code comments in accordance with the unit requirements.
