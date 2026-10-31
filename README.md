@@ -21,38 +21,50 @@ COS30045 Data Visualisation Project 2026, Group 29. A six-page D3.js data story 
 
 ## Folder structure
 
+The repo root is the website root, so the whole repo can be uploaded to Mercury as it is.
+
 ```
-Group29_RoadCrash/
-├── index.html            Home         (Teammate 1)
-├── who.html              Who          (Teammate 2)
-├── how.html              How          (Teammate 2)
-├── where.html            Where        (Winson)
-├── time.html             Over time    (Teammate 1)
-├── about.html            About        (Winson)
-├── css/
-│   └── style.css         shared styles, colours as CSS variables (Teammate 1)
-├── js/
-│   ├── common.js         shared helpers: tooltip, number format, colours, year filter (Teammate 1)
-│   ├── home.js           (Teammate 1)
-│   ├── time.js           (Teammate 1)
-│   ├── who.js            (Teammate 2)
-│   ├── how.js            (Teammate 2)
-│   └── where.js          (Winson)
-├── data/                 cleaned CSVs exported from KNIME (do not edit by hand)
-│   └── aus_states.geojson   state boundaries for the Where map (to add)
-├── img/                  logos, icons, screenshots used on the site
-├── knime/                Group29_RoadCrash.knwf (final KNIME workflow with all data)
-└── docs/                 Design Book PDF and working notes
+COS30045_Group29/
+├── index.html                 Home         (Teammate 1)
+├── who.html                   Who          (Teammate 2)
+├── how.html                   How          (Teammate 2)
+├── where.html                 Where        (Winson)
+├── time.html                  Over time    (Teammate 1)
+├── about.html                 About        (Winson)
+├── assets/
+│   ├── css/
+│   │   └── style.css          shared styles, colours as CSS variables (Teammate 1)
+│   ├── js/
+│   │   ├── common.js          shared helpers: tooltip, number format, colours, year filter (Teammate 1)
+│   │   └── pages/
+│   │       ├── home.js        (Teammate 1)
+│   │       ├── time.js        (Teammate 1)
+│   │       ├── who.js         (Teammate 2)
+│   │       ├── how.js         (Teammate 2)
+│   │       └── where.js       (Winson)
+│   └── img/                   logos, icons
+├── data/                      cleaned CSVs exported from KNIME (do not edit by hand)
+│   └── geo/
+│       └── aus_states.geojson state boundaries for the Where map (to add)
+├── README.md
+└── .gitignore
 ```
+
+Each HTML page loads three scripts in this order: D3, `assets/js/common.js`, then its own file in `assets/js/pages/`.
+
+The KNIME workflow and Design Book PDF are submitted on Canvas, not kept in this repo.
 
 ## Rules
 
-- Only edit your own files. Ask Teammate 1 before changing `css/style.css` or `js/common.js`.
+- Only edit your own files. Ask Teammate 1 before changing `assets/css/style.css` or `assets/js/common.js`.
 - Never edit files in `data/` by hand. If data needs to change, change the KNIME workflow and re-export.
 - Use D3 version 7: `https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js`
 - Load data with relative paths, e.g. `d3.csv("data/yearly_total.csv", d3.autoType)`, so the site works on Mercury.
 - Column names are case sensitive: `Year`, `Month`, `Sex`, `Counterparty` and `Hospitalisations` start with a capital; all others are lower case.
-- Pull before you start work and commit small, clear changes.
+- Use relative paths only (no leading `/`), e.g. `assets/css/style.css`, so links work on Mercury.
+- File names are lower case with no spaces.
+- Pull before you start work, commit small, clear changes, and write messages that say what changed, e.g. `Add age pyramid to Who page`.
+- Credit any code adapted from examples or AI tools in a comment above it.
 
 ## Data files
 
@@ -80,7 +92,7 @@ Team name: Group 29
 
 - Chong Jin Cheng
 - Soon Mung Hing
-- Haresh Suri
+- (third member)
 
 ## Academic integrity
 
