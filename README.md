@@ -80,7 +80,7 @@ Team name: Group 29
 
 - Chong Jin Cheng
 - Soon Mung Hing
-- (third member)
+- Haresh Suri
 
 ## Academic integrity
 
