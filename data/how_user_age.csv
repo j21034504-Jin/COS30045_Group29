@@ -1,0 +1,875 @@
+"Year","age_group","road_user","age_order","road_user_group","Hospitalisations","bed_days"
+2011,"0-7","Bus occupant",1,"Bus occupant",7,11
+2011,"8-16","Bus occupant",2,"Bus occupant",12,16
+2011,"17-25","Bus occupant",3,"Bus occupant",21,43
+2011,"26-39","Bus occupant",4,"Bus occupant",24,71
+2011,"40-64","Bus occupant",5,"Bus occupant",58,154
+2011,"65-74","Bus occupant",6,"Bus occupant",31,104
+2011,"75+","Bus occupant",7,"Bus occupant",61,353
+2011,"8-16","Car driver",2,"Car driver, passenger or unknown position",73,382
+2011,"17-25","Car driver",3,"Car driver, passenger or unknown position",2917,10716
+2011,"26-39","Car driver",4,"Car driver, passenger or unknown position",2790,10465
+2011,"40-64","Car driver",5,"Car driver, passenger or unknown position",3472,14921
+2011,"65-74","Car driver",6,"Car driver, passenger or unknown position",813,5223
+2011,"75+","Car driver",7,"Car driver, passenger or unknown position",883,6067
+2011,"0-7","Car passenger",1,"Car driver, passenger or unknown position",273,1024
+2011,"8-16","Car passenger",2,"Car driver, passenger or unknown position",636,2874
+2011,"17-25","Car passenger",3,"Car driver, passenger or unknown position",1455,5381
+2011,"26-39","Car passenger",4,"Car driver, passenger or unknown position",841,3881
+2011,"40-64","Car passenger",5,"Car driver, passenger or unknown position",962,4498
+2011,"65-74","Car passenger",6,"Car driver, passenger or unknown position",314,1542
+2011,"75+","Car passenger",7,"Car driver, passenger or unknown position",372,2758
+2011,"0-7","Car unknown position",1,"Car driver, passenger or unknown position",20,100
+2011,"8-16","Car unknown position",2,"Car driver, passenger or unknown position",42,100
+2011,"17-25","Car unknown position",3,"Car driver, passenger or unknown position",216,700
+2011,"26-39","Car unknown position",4,"Car driver, passenger or unknown position",224,832
+2011,"40-64","Car unknown position",5,"Car driver, passenger or unknown position",273,1163
+2011,"65-74","Car unknown position",6,"Car driver, passenger or unknown position",59,278
+2011,"75+","Car unknown position",7,"Car driver, passenger or unknown position",55,827
+2011,"17-25","Heavy transport driver",3,"Heavy transport driver, passenger or unknown position",33,125
+2011,"26-39","Heavy transport driver",4,"Heavy transport driver, passenger or unknown position",125,490
+2011,"40-64","Heavy transport driver",5,"Heavy transport driver, passenger or unknown position",279,1338
+2011,"65-74","Heavy transport driver",6,"Heavy transport driver, passenger or unknown position",17,63
+2011,"75+","Heavy transport driver",7,"Heavy transport driver, passenger or unknown position",1,6
+2011,"0-7","Heavy transport passenger",1,"Heavy transport driver, passenger or unknown position",1,1
+2011,"8-16","Heavy transport passenger",2,"Heavy transport driver, passenger or unknown position",3,9
+2011,"17-25","Heavy transport passenger",3,"Heavy transport driver, passenger or unknown position",10,95
+2011,"26-39","Heavy transport passenger",4,"Heavy transport driver, passenger or unknown position",12,57
+2011,"40-64","Heavy transport passenger",5,"Heavy transport driver, passenger or unknown position",19,88
+2011,"65-74","Heavy transport passenger",6,"Heavy transport driver, passenger or unknown position",7,40
+2011,"8-16","Heavy transport unknown position",2,"Heavy transport driver, passenger or unknown position",2,2
+2011,"17-25","Heavy transport unknown position",3,"Heavy transport driver, passenger or unknown position",2,9
+2011,"26-39","Heavy transport unknown position",4,"Heavy transport driver, passenger or unknown position",9,29
+2011,"40-64","Heavy transport unknown position",5,"Heavy transport driver, passenger or unknown position",38,206
+2011,"65-74","Heavy transport unknown position",6,"Heavy transport driver, passenger or unknown position",4,4
+2011,"0-7","Motorcyclist",1,"Motorcyclist",27,37
+2011,"8-16","Motorcyclist",2,"Motorcyclist",474,1291
+2011,"17-25","Motorcyclist",3,"Motorcyclist",2042,8747
+2011,"26-39","Motorcyclist",4,"Motorcyclist",2174,10321
+2011,"40-64","Motorcyclist",5,"Motorcyclist",2645,15399
+2011,"65-74","Motorcyclist",6,"Motorcyclist",161,1360
+2011,"75+","Motorcyclist",7,"Motorcyclist",42,418
+2011,"0-7","Other or unknown",1,"Other or unknown",20,71
+2011,"8-16","Other or unknown",2,"Other or unknown",35,77
+2011,"17-25","Other or unknown",3,"Other or unknown",123,428
+2011,"26-39","Other or unknown",4,"Other or unknown",120,348
+2011,"40-64","Other or unknown",5,"Other or unknown",187,741
+2011,"65-74","Other or unknown",6,"Other or unknown",79,415
+2011,"75+","Other or unknown",7,"Other or unknown",46,604
+2011,"0-7","Pedal cyclist",1,"Pedal cyclist",204,348
+2011,"8-16","Pedal cyclist",2,"Pedal cyclist",861,1571
+2011,"17-25","Pedal cyclist",3,"Pedal cyclist",668,1666
+2011,"26-39","Pedal cyclist",4,"Pedal cyclist",1314,3456
+2011,"40-64","Pedal cyclist",5,"Pedal cyclist",2017,6494
+2011,"65-74","Pedal cyclist",6,"Pedal cyclist",240,1078
+2011,"75+","Pedal cyclist",7,"Pedal cyclist",87,585
+2011,"0-7","Pedestrian",1,"Pedestrian",163,709
+2011,"8-16","Pedestrian",2,"Pedestrian",373,2303
+2011,"17-25","Pedestrian",3,"Pedestrian",532,2814
+2011,"26-39","Pedestrian",4,"Pedestrian",466,3363
+2011,"40-64","Pedestrian",5,"Pedestrian",633,5207
+2011,"65-74","Pedestrian",6,"Pedestrian",232,2379
+2011,"75+","Pedestrian",7,"Pedestrian",355,4149
+2011,"0-7","Pick-up truck or van occupant",1,"Pick-up truck or van occupant",4,5
+2011,"8-16","Pick-up truck or van occupant",2,"Pick-up truck or van occupant",9,73
+2011,"17-25","Pick-up truck or van occupant",3,"Pick-up truck or van occupant",75,291
+2011,"26-39","Pick-up truck or van occupant",4,"Pick-up truck or van occupant",67,349
+2011,"40-64","Pick-up truck or van occupant",5,"Pick-up truck or van occupant",77,487
+2011,"65-74","Pick-up truck or van occupant",6,"Pick-up truck or van occupant",11,38
+2011,"75+","Pick-up truck or van occupant",7,"Pick-up truck or van occupant",4,5
+2012,"0-7","Bus occupant",1,"Bus occupant",9,37
+2012,"8-16","Bus occupant",2,"Bus occupant",9,19
+2012,"17-25","Bus occupant",3,"Bus occupant",11,46
+2012,"26-39","Bus occupant",4,"Bus occupant",29,135
+2012,"40-64","Bus occupant",5,"Bus occupant",68,197
+2012,"65-74","Bus occupant",6,"Bus occupant",22,71
+2012,"75+","Bus occupant",7,"Bus occupant",69,384
+2012,"0-7","Car driver",1,"Car driver, passenger or unknown position",2,7
+2012,"8-16","Car driver",2,"Car driver, passenger or unknown position",59,211
+2012,"17-25","Car driver",3,"Car driver, passenger or unknown position",2830,10174
+2012,"26-39","Car driver",4,"Car driver, passenger or unknown position",2736,10317
+2012,"40-64","Car driver",5,"Car driver, passenger or unknown position",3391,15050
+2012,"65-74","Car driver",6,"Car driver, passenger or unknown position",846,4805
+2012,"75+","Car driver",7,"Car driver, passenger or unknown position",942,6775
+2012,"0-7","Car passenger",1,"Car driver, passenger or unknown position",308,1580
+2012,"8-16","Car passenger",2,"Car driver, passenger or unknown position",568,1773
+2012,"17-25","Car passenger",3,"Car driver, passenger or unknown position",1384,5757
+2012,"26-39","Car passenger",4,"Car driver, passenger or unknown position",884,3621
+2012,"40-64","Car passenger",5,"Car driver, passenger or unknown position",905,4010
+2012,"65-74","Car passenger",6,"Car driver, passenger or unknown position",283,1488
+2012,"75+","Car passenger",7,"Car driver, passenger or unknown position",406,2546
+2012,"0-7","Car unknown position",1,"Car driver, passenger or unknown position",14,17
+2012,"8-16","Car unknown position",2,"Car driver, passenger or unknown position",31,75
+2012,"17-25","Car unknown position",3,"Car driver, passenger or unknown position",261,868
+2012,"26-39","Car unknown position",4,"Car driver, passenger or unknown position",202,656
+2012,"40-64","Car unknown position",5,"Car driver, passenger or unknown position",257,1237
+2012,"65-74","Car unknown position",6,"Car driver, passenger or unknown position",64,472
+2012,"75+","Car unknown position",7,"Car driver, passenger or unknown position",66,636
+2012,"17-25","Heavy transport driver",3,"Heavy transport driver, passenger or unknown position",29,98
+2012,"26-39","Heavy transport driver",4,"Heavy transport driver, passenger or unknown position",130,678
+2012,"40-64","Heavy transport driver",5,"Heavy transport driver, passenger or unknown position",236,1070
+2012,"65-74","Heavy transport driver",6,"Heavy transport driver, passenger or unknown position",19,125
+2012,"75+","Heavy transport driver",7,"Heavy transport driver, passenger or unknown position",2,45
+2012,"0-7","Heavy transport passenger",1,"Heavy transport driver, passenger or unknown position",2,2
+2012,"8-16","Heavy transport passenger",2,"Heavy transport driver, passenger or unknown position",1,1
+2012,"17-25","Heavy transport passenger",3,"Heavy transport driver, passenger or unknown position",14,21
+2012,"26-39","Heavy transport passenger",4,"Heavy transport driver, passenger or unknown position",12,72
+2012,"40-64","Heavy transport passenger",5,"Heavy transport driver, passenger or unknown position",15,126
+2012,"65-74","Heavy transport passenger",6,"Heavy transport driver, passenger or unknown position",1,1
+2012,"75+","Heavy transport passenger",7,"Heavy transport driver, passenger or unknown position",2,3
+2012,"8-16","Heavy transport unknown position",2,"Heavy transport driver, passenger or unknown position",1,1
+2012,"17-25","Heavy transport unknown position",3,"Heavy transport driver, passenger or unknown position",4,4
+2012,"26-39","Heavy transport unknown position",4,"Heavy transport driver, passenger or unknown position",14,51
+2012,"40-64","Heavy transport unknown position",5,"Heavy transport driver, passenger or unknown position",28,113
+2012,"65-74","Heavy transport unknown position",6,"Heavy transport driver, passenger or unknown position",1,1
+2012,"0-7","Motorcyclist",1,"Motorcyclist",47,77
+2012,"8-16","Motorcyclist",2,"Motorcyclist",478,1888
+2012,"17-25","Motorcyclist",3,"Motorcyclist",2077,8479
+2012,"26-39","Motorcyclist",4,"Motorcyclist",2240,10470
+2012,"40-64","Motorcyclist",5,"Motorcyclist",2679,15088
+2012,"65-74","Motorcyclist",6,"Motorcyclist",166,1206
+2012,"75+","Motorcyclist",7,"Motorcyclist",41,316
+2012,"0-7","Other or unknown",1,"Other or unknown",18,23
+2012,"8-16","Other or unknown",2,"Other or unknown",29,126
+2012,"17-25","Other or unknown",3,"Other or unknown",119,522
+2012,"26-39","Other or unknown",4,"Other or unknown",114,524
+2012,"40-64","Other or unknown",5,"Other or unknown",186,711
+2012,"65-74","Other or unknown",6,"Other or unknown",30,173
+2012,"75+","Other or unknown",7,"Other or unknown",67,498
+2012,"0-7","Pedal cyclist",1,"Pedal cyclist",202,441
+2012,"8-16","Pedal cyclist",2,"Pedal cyclist",828,1699
+2012,"17-25","Pedal cyclist",3,"Pedal cyclist",731,1532
+2012,"26-39","Pedal cyclist",4,"Pedal cyclist",1317,2983
+2012,"40-64","Pedal cyclist",5,"Pedal cyclist",2157,6971
+2012,"65-74","Pedal cyclist",6,"Pedal cyclist",282,1457
+2012,"75+","Pedal cyclist",7,"Pedal cyclist",104,626
+2012,"0-7","Pedestrian",1,"Pedestrian",144,638
+2012,"8-16","Pedestrian",2,"Pedestrian",313,1960
+2012,"17-25","Pedestrian",3,"Pedestrian",502,1993
+2012,"26-39","Pedestrian",4,"Pedestrian",513,3192
+2012,"40-64","Pedestrian",5,"Pedestrian",641,4999
+2012,"65-74","Pedestrian",6,"Pedestrian",208,2168
+2012,"75+","Pedestrian",7,"Pedestrian",351,4197
+2012,"0-7","Pick-up truck or van occupant",1,"Pick-up truck or van occupant",4,4
+2012,"8-16","Pick-up truck or van occupant",2,"Pick-up truck or van occupant",10,20
+2012,"17-25","Pick-up truck or van occupant",3,"Pick-up truck or van occupant",73,360
+2012,"26-39","Pick-up truck or van occupant",4,"Pick-up truck or van occupant",60,298
+2012,"40-64","Pick-up truck or van occupant",5,"Pick-up truck or van occupant",99,494
+2012,"65-74","Pick-up truck or van occupant",6,"Pick-up truck or van occupant",19,155
+2012,"75+","Pick-up truck or van occupant",7,"Pick-up truck or van occupant",8,131
+2013,"0-7","Bus occupant",1,"Bus occupant",7,7
+2013,"8-16","Bus occupant",2,"Bus occupant",6,23
+2013,"17-25","Bus occupant",3,"Bus occupant",16,38
+2013,"26-39","Bus occupant",4,"Bus occupant",24,62
+2013,"40-64","Bus occupant",5,"Bus occupant",66,195
+2013,"65-74","Bus occupant",6,"Bus occupant",38,228
+2013,"75+","Bus occupant",7,"Bus occupant",69,425
+2013,"0-7","Car driver",1,"Car driver, passenger or unknown position",4,6
+2013,"8-16","Car driver",2,"Car driver, passenger or unknown position",63,271
+2013,"17-25","Car driver",3,"Car driver, passenger or unknown position",2756,9477
+2013,"26-39","Car driver",4,"Car driver, passenger or unknown position",2830,8958
+2013,"40-64","Car driver",5,"Car driver, passenger or unknown position",3457,12541
+2013,"65-74","Car driver",6,"Car driver, passenger or unknown position",889,4914
+2013,"75+","Car driver",7,"Car driver, passenger or unknown position",943,6172
+2013,"0-7","Car passenger",1,"Car driver, passenger or unknown position",302,828
+2013,"8-16","Car passenger",2,"Car driver, passenger or unknown position",610,1894
+2013,"17-25","Car passenger",3,"Car driver, passenger or unknown position",1331,5132
+2013,"26-39","Car passenger",4,"Car driver, passenger or unknown position",891,3302
+2013,"40-64","Car passenger",5,"Car driver, passenger or unknown position",971,4203
+2013,"65-74","Car passenger",6,"Car driver, passenger or unknown position",336,1783
+2013,"75+","Car passenger",7,"Car driver, passenger or unknown position",387,2649
+2013,"0-7","Car unknown position",1,"Car driver, passenger or unknown position",12,21
+2013,"8-16","Car unknown position",2,"Car driver, passenger or unknown position",38,69
+2013,"17-25","Car unknown position",3,"Car driver, passenger or unknown position",186,558
+2013,"26-39","Car unknown position",4,"Car driver, passenger or unknown position",208,475
+2013,"40-64","Car unknown position",5,"Car driver, passenger or unknown position",252,1199
+2013,"65-74","Car unknown position",6,"Car driver, passenger or unknown position",53,316
+2013,"75+","Car unknown position",7,"Car driver, passenger or unknown position",69,558
+2013,"17-25","Heavy transport driver",3,"Heavy transport driver, passenger or unknown position",35,161
+2013,"26-39","Heavy transport driver",4,"Heavy transport driver, passenger or unknown position",113,583
+2013,"40-64","Heavy transport driver",5,"Heavy transport driver, passenger or unknown position",247,1381
+2013,"65-74","Heavy transport driver",6,"Heavy transport driver, passenger or unknown position",19,64
+2013,"75+","Heavy transport driver",7,"Heavy transport driver, passenger or unknown position",1,99
+2013,"8-16","Heavy transport passenger",2,"Heavy transport driver, passenger or unknown position",4,5
+2013,"17-25","Heavy transport passenger",3,"Heavy transport driver, passenger or unknown position",6,93
+2013,"26-39","Heavy transport passenger",4,"Heavy transport driver, passenger or unknown position",5,16
+2013,"40-64","Heavy transport passenger",5,"Heavy transport driver, passenger or unknown position",25,65
+2013,"8-16","Heavy transport unknown position",2,"Heavy transport driver, passenger or unknown position",0,1
+2013,"17-25","Heavy transport unknown position",3,"Heavy transport driver, passenger or unknown position",1,1
+2013,"26-39","Heavy transport unknown position",4,"Heavy transport driver, passenger or unknown position",4,4
+2013,"40-64","Heavy transport unknown position",5,"Heavy transport driver, passenger or unknown position",19,44
+2013,"65-74","Heavy transport unknown position",6,"Heavy transport driver, passenger or unknown position",4,18
+2013,"75+","Heavy transport unknown position",7,"Heavy transport driver, passenger or unknown position",1,4
+2013,"0-7","Motorcyclist",1,"Motorcyclist",37,87
+2013,"8-16","Motorcyclist",2,"Motorcyclist",471,1585
+2013,"17-25","Motorcyclist",3,"Motorcyclist",2084,7410
+2013,"26-39","Motorcyclist",4,"Motorcyclist",2269,9965
+2013,"40-64","Motorcyclist",5,"Motorcyclist",2879,16126
+2013,"65-74","Motorcyclist",6,"Motorcyclist",205,1665
+2013,"75+","Motorcyclist",7,"Motorcyclist",73,791
+2013,"0-7","Other or unknown",1,"Other or unknown",24,70
+2013,"8-16","Other or unknown",2,"Other or unknown",35,86
+2013,"17-25","Other or unknown",3,"Other or unknown",98,285
+2013,"26-39","Other or unknown",4,"Other or unknown",106,493
+2013,"40-64","Other or unknown",5,"Other or unknown",184,945
+2013,"65-74","Other or unknown",6,"Other or unknown",37,134
+2013,"75+","Other or unknown",7,"Other or unknown",52,470
+2013,"0-7","Pedal cyclist",1,"Pedal cyclist",194,328
+2013,"8-16","Pedal cyclist",2,"Pedal cyclist",871,1766
+2013,"17-25","Pedal cyclist",3,"Pedal cyclist",778,1915
+2013,"26-39","Pedal cyclist",4,"Pedal cyclist",1476,3222
+2013,"40-64","Pedal cyclist",5,"Pedal cyclist",2517,7643
+2013,"65-74","Pedal cyclist",6,"Pedal cyclist",321,1602
+2013,"75+","Pedal cyclist",7,"Pedal cyclist",105,797
+2013,"0-7","Pedestrian",1,"Pedestrian",150,574
+2013,"8-16","Pedestrian",2,"Pedestrian",279,1325
+2013,"17-25","Pedestrian",3,"Pedestrian",495,2375
+2013,"26-39","Pedestrian",4,"Pedestrian",482,3021
+2013,"40-64","Pedestrian",5,"Pedestrian",656,5232
+2013,"65-74","Pedestrian",6,"Pedestrian",244,2343
+2013,"75+","Pedestrian",7,"Pedestrian",351,3450
+2013,"0-7","Pick-up truck or van occupant",1,"Pick-up truck or van occupant",2,16
+2013,"8-16","Pick-up truck or van occupant",2,"Pick-up truck or van occupant",6,69
+2013,"17-25","Pick-up truck or van occupant",3,"Pick-up truck or van occupant",66,240
+2013,"26-39","Pick-up truck or van occupant",4,"Pick-up truck or van occupant",64,367
+2013,"40-64","Pick-up truck or van occupant",5,"Pick-up truck or van occupant",72,482
+2013,"65-74","Pick-up truck or van occupant",6,"Pick-up truck or van occupant",11,122
+2013,"75+","Pick-up truck or van occupant",7,"Pick-up truck or van occupant",9,54
+2014,"0-7","Bus occupant",1,"Bus occupant",3,3
+2014,"8-16","Bus occupant",2,"Bus occupant",21,23
+2014,"17-25","Bus occupant",3,"Bus occupant",28,81
+2014,"26-39","Bus occupant",4,"Bus occupant",34,76
+2014,"40-64","Bus occupant",5,"Bus occupant",91,486
+2014,"65-74","Bus occupant",6,"Bus occupant",37,188
+2014,"75+","Bus occupant",7,"Bus occupant",75,615
+2014,"0-7","Car driver",1,"Car driver, passenger or unknown position",5,21
+2014,"8-16","Car driver",2,"Car driver, passenger or unknown position",47,149
+2014,"17-25","Car driver",3,"Car driver, passenger or unknown position",2700,7722
+2014,"26-39","Car driver",4,"Car driver, passenger or unknown position",2830,9047
+2014,"40-64","Car driver",5,"Car driver, passenger or unknown position",3596,14092
+2014,"65-74","Car driver",6,"Car driver, passenger or unknown position",932,4483
+2014,"75+","Car driver",7,"Car driver, passenger or unknown position",1012,6363
+2014,"0-7","Car passenger",1,"Car driver, passenger or unknown position",295,1528
+2014,"8-16","Car passenger",2,"Car driver, passenger or unknown position",503,1652
+2014,"17-25","Car passenger",3,"Car driver, passenger or unknown position",1317,4987
+2014,"26-39","Car passenger",4,"Car driver, passenger or unknown position",822,3170
+2014,"40-64","Car passenger",5,"Car driver, passenger or unknown position",938,3844
+2014,"65-74","Car passenger",6,"Car driver, passenger or unknown position",355,1945
+2014,"75+","Car passenger",7,"Car driver, passenger or unknown position",395,2591
+2014,"0-7","Car unknown position",1,"Car driver, passenger or unknown position",16,33
+2014,"8-16","Car unknown position",2,"Car driver, passenger or unknown position",25,104
+2014,"17-25","Car unknown position",3,"Car driver, passenger or unknown position",184,657
+2014,"26-39","Car unknown position",4,"Car driver, passenger or unknown position",193,608
+2014,"40-64","Car unknown position",5,"Car driver, passenger or unknown position",207,557
+2014,"65-74","Car unknown position",6,"Car driver, passenger or unknown position",45,314
+2014,"75+","Car unknown position",7,"Car driver, passenger or unknown position",58,550
+2014,"17-25","Heavy transport driver",3,"Heavy transport driver, passenger or unknown position",28,117
+2014,"26-39","Heavy transport driver",4,"Heavy transport driver, passenger or unknown position",87,265
+2014,"40-64","Heavy transport driver",5,"Heavy transport driver, passenger or unknown position",237,1398
+2014,"65-74","Heavy transport driver",6,"Heavy transport driver, passenger or unknown position",23,62
+2014,"75+","Heavy transport driver",7,"Heavy transport driver, passenger or unknown position",2,18
+2014,"8-16","Heavy transport passenger",2,"Heavy transport driver, passenger or unknown position",3,85
+2014,"17-25","Heavy transport passenger",3,"Heavy transport driver, passenger or unknown position",11,33
+2014,"26-39","Heavy transport passenger",4,"Heavy transport driver, passenger or unknown position",14,105
+2014,"40-64","Heavy transport passenger",5,"Heavy transport driver, passenger or unknown position",21,185
+2014,"65-74","Heavy transport passenger",6,"Heavy transport driver, passenger or unknown position",3,37
+2014,"75+","Heavy transport passenger",7,"Heavy transport driver, passenger or unknown position",3,14
+2014,"8-16","Heavy transport unknown position",2,"Heavy transport driver, passenger or unknown position",2,2
+2014,"17-25","Heavy transport unknown position",3,"Heavy transport driver, passenger or unknown position",5,8
+2014,"26-39","Heavy transport unknown position",4,"Heavy transport driver, passenger or unknown position",6,9
+2014,"40-64","Heavy transport unknown position",5,"Heavy transport driver, passenger or unknown position",27,160
+2014,"65-74","Heavy transport unknown position",6,"Heavy transport driver, passenger or unknown position",7,69
+2014,"75+","Heavy transport unknown position",7,"Heavy transport driver, passenger or unknown position",1,1
+2014,"0-7","Motorcyclist",1,"Motorcyclist",36,106
+2014,"8-16","Motorcyclist",2,"Motorcyclist",451,1195
+2014,"17-25","Motorcyclist",3,"Motorcyclist",2104,7290
+2014,"26-39","Motorcyclist",4,"Motorcyclist",2413,10029
+2014,"40-64","Motorcyclist",5,"Motorcyclist",3031,15774
+2014,"65-74","Motorcyclist",6,"Motorcyclist",228,1216
+2014,"75+","Motorcyclist",7,"Motorcyclist",71,690
+2014,"0-7","Other or unknown",1,"Other or unknown",18,25
+2014,"8-16","Other or unknown",2,"Other or unknown",21,39
+2014,"17-25","Other or unknown",3,"Other or unknown",91,215
+2014,"26-39","Other or unknown",4,"Other or unknown",104,344
+2014,"40-64","Other or unknown",5,"Other or unknown",193,681
+2014,"65-74","Other or unknown",6,"Other or unknown",33,113
+2014,"75+","Other or unknown",7,"Other or unknown",47,423
+2014,"0-7","Pedal cyclist",1,"Pedal cyclist",223,327
+2014,"8-16","Pedal cyclist",2,"Pedal cyclist",877,1710
+2014,"17-25","Pedal cyclist",3,"Pedal cyclist",763,1532
+2014,"26-39","Pedal cyclist",4,"Pedal cyclist",1626,3749
+2014,"40-64","Pedal cyclist",5,"Pedal cyclist",2629,7422
+2014,"65-74","Pedal cyclist",6,"Pedal cyclist",389,1878
+2014,"75+","Pedal cyclist",7,"Pedal cyclist",129,839
+2014,"0-7","Pedestrian",1,"Pedestrian",132,433
+2014,"8-16","Pedestrian",2,"Pedestrian",266,949
+2014,"17-25","Pedestrian",3,"Pedestrian",432,2119
+2014,"26-39","Pedestrian",4,"Pedestrian",476,2679
+2014,"40-64","Pedestrian",5,"Pedestrian",618,4925
+2014,"65-74","Pedestrian",6,"Pedestrian",281,2738
+2014,"75+","Pedestrian",7,"Pedestrian",349,3990
+2014,"0-7","Pick-up truck or van occupant",1,"Pick-up truck or van occupant",1,7
+2014,"8-16","Pick-up truck or van occupant",2,"Pick-up truck or van occupant",15,65
+2014,"17-25","Pick-up truck or van occupant",3,"Pick-up truck or van occupant",65,229
+2014,"26-39","Pick-up truck or van occupant",4,"Pick-up truck or van occupant",63,194
+2014,"40-64","Pick-up truck or van occupant",5,"Pick-up truck or van occupant",78,522
+2014,"65-74","Pick-up truck or van occupant",6,"Pick-up truck or van occupant",12,36
+2014,"75+","Pick-up truck or van occupant",7,"Pick-up truck or van occupant",5,36
+2015,"8-16","Bus occupant",2,"Bus occupant",12,14
+2015,"17-25","Bus occupant",3,"Bus occupant",21,77
+2015,"26-39","Bus occupant",4,"Bus occupant",27,290
+2015,"40-64","Bus occupant",5,"Bus occupant",69,208
+2015,"65-74","Bus occupant",6,"Bus occupant",44,399
+2015,"75+","Bus occupant",7,"Bus occupant",73,474
+2015,"0-7","Car driver",1,"Car driver, passenger or unknown position",3,5
+2015,"8-16","Car driver",2,"Car driver, passenger or unknown position",59,106
+2015,"17-25","Car driver",3,"Car driver, passenger or unknown position",2918,11189
+2015,"26-39","Car driver",4,"Car driver, passenger or unknown position",3186,12306
+2015,"40-64","Car driver",5,"Car driver, passenger or unknown position",3853,18632
+2015,"65-74","Car driver",6,"Car driver, passenger or unknown position",1022,6011
+2015,"75+","Car driver",7,"Car driver, passenger or unknown position",1122,9683
+2015,"0-7","Car passenger",1,"Car driver, passenger or unknown position",343,1558
+2015,"8-16","Car passenger",2,"Car driver, passenger or unknown position",626,2304
+2015,"17-25","Car passenger",3,"Car driver, passenger or unknown position",1296,5252
+2015,"26-39","Car passenger",4,"Car driver, passenger or unknown position",904,4760
+2015,"40-64","Car passenger",5,"Car driver, passenger or unknown position",988,4489
+2015,"65-74","Car passenger",6,"Car driver, passenger or unknown position",378,2489
+2015,"75+","Car passenger",7,"Car driver, passenger or unknown position",423,3748
+2015,"0-7","Car unknown position",1,"Car driver, passenger or unknown position",12,28
+2015,"8-16","Car unknown position",2,"Car driver, passenger or unknown position",35,64
+2015,"17-25","Car unknown position",3,"Car driver, passenger or unknown position",194,713
+2015,"26-39","Car unknown position",4,"Car driver, passenger or unknown position",206,730
+2015,"40-64","Car unknown position",5,"Car driver, passenger or unknown position",216,1439
+2015,"65-74","Car unknown position",6,"Car driver, passenger or unknown position",66,726
+2015,"75+","Car unknown position",7,"Car driver, passenger or unknown position",83,1031
+2015,"8-16","Heavy transport driver",2,"Heavy transport driver, passenger or unknown position",1,3
+2015,"17-25","Heavy transport driver",3,"Heavy transport driver, passenger or unknown position",27,61
+2015,"26-39","Heavy transport driver",4,"Heavy transport driver, passenger or unknown position",118,385
+2015,"40-64","Heavy transport driver",5,"Heavy transport driver, passenger or unknown position",273,1785
+2015,"65-74","Heavy transport driver",6,"Heavy transport driver, passenger or unknown position",22,110
+2015,"75+","Heavy transport driver",7,"Heavy transport driver, passenger or unknown position",3,22
+2015,"0-7","Heavy transport passenger",1,"Heavy transport driver, passenger or unknown position",2,2
+2015,"8-16","Heavy transport passenger",2,"Heavy transport driver, passenger or unknown position",7,8
+2015,"17-25","Heavy transport passenger",3,"Heavy transport driver, passenger or unknown position",10,76
+2015,"26-39","Heavy transport passenger",4,"Heavy transport driver, passenger or unknown position",11,55
+2015,"40-64","Heavy transport passenger",5,"Heavy transport driver, passenger or unknown position",9,170
+2015,"65-74","Heavy transport passenger",6,"Heavy transport driver, passenger or unknown position",3,12
+2015,"75+","Heavy transport passenger",7,"Heavy transport driver, passenger or unknown position",1,13
+2015,"17-25","Heavy transport unknown position",3,"Heavy transport driver, passenger or unknown position",3,4
+2015,"26-39","Heavy transport unknown position",4,"Heavy transport driver, passenger or unknown position",3,131
+2015,"40-64","Heavy transport unknown position",5,"Heavy transport driver, passenger or unknown position",16,77
+2015,"65-74","Heavy transport unknown position",6,"Heavy transport driver, passenger or unknown position",1,1
+2015,"0-7","Motorcyclist",1,"Motorcyclist",37,75
+2015,"8-16","Motorcyclist",2,"Motorcyclist",466,1472
+2015,"17-25","Motorcyclist",3,"Motorcyclist",2064,8577
+2015,"26-39","Motorcyclist",4,"Motorcyclist",2322,12149
+2015,"40-64","Motorcyclist",5,"Motorcyclist",3097,19982
+2015,"65-74","Motorcyclist",6,"Motorcyclist",226,1907
+2015,"75+","Motorcyclist",7,"Motorcyclist",86,748
+2015,"0-7","Other or unknown",1,"Other or unknown",9,20
+2015,"8-16","Other or unknown",2,"Other or unknown",27,48
+2015,"17-25","Other or unknown",3,"Other or unknown",104,321
+2015,"26-39","Other or unknown",4,"Other or unknown",107,405
+2015,"40-64","Other or unknown",5,"Other or unknown",182,787
+2015,"65-74","Other or unknown",6,"Other or unknown",33,428
+2015,"75+","Other or unknown",7,"Other or unknown",41,521
+2015,"0-7","Pedal cyclist",1,"Pedal cyclist",220,335
+2015,"8-16","Pedal cyclist",2,"Pedal cyclist",935,1804
+2015,"17-25","Pedal cyclist",3,"Pedal cyclist",748,1590
+2015,"26-39","Pedal cyclist",4,"Pedal cyclist",1539,3609
+2015,"40-64","Pedal cyclist",5,"Pedal cyclist",2730,8600
+2015,"65-74","Pedal cyclist",6,"Pedal cyclist",400,2092
+2015,"75+","Pedal cyclist",7,"Pedal cyclist",144,956
+2015,"0-7","Pedestrian",1,"Pedestrian",121,519
+2015,"8-16","Pedestrian",2,"Pedestrian",269,1271
+2015,"17-25","Pedestrian",3,"Pedestrian",447,2357
+2015,"26-39","Pedestrian",4,"Pedestrian",492,2738
+2015,"40-64","Pedestrian",5,"Pedestrian",664,6152
+2015,"65-74","Pedestrian",6,"Pedestrian",255,3402
+2015,"75+","Pedestrian",7,"Pedestrian",379,5945
+2015,"0-7","Pick-up truck or van occupant",1,"Pick-up truck or van occupant",3,4
+2015,"8-16","Pick-up truck or van occupant",2,"Pick-up truck or van occupant",2,3
+2015,"17-25","Pick-up truck or van occupant",3,"Pick-up truck or van occupant",50,214
+2015,"26-39","Pick-up truck or van occupant",4,"Pick-up truck or van occupant",62,451
+2015,"40-64","Pick-up truck or van occupant",5,"Pick-up truck or van occupant",102,553
+2015,"65-74","Pick-up truck or van occupant",6,"Pick-up truck or van occupant",15,66
+2015,"75+","Pick-up truck or van occupant",7,"Pick-up truck or van occupant",15,89
+2016,"0-7","Bus occupant",1,"Bus occupant",4,10
+2016,"8-16","Bus occupant",2,"Bus occupant",13,20
+2016,"17-25","Bus occupant",3,"Bus occupant",21,105
+2016,"26-39","Bus occupant",4,"Bus occupant",32,70
+2016,"40-64","Bus occupant",5,"Bus occupant",100,692
+2016,"65-74","Bus occupant",6,"Bus occupant",41,307
+2016,"75+","Bus occupant",7,"Bus occupant",72,619
+2016,"0-7","Car driver",1,"Car driver, passenger or unknown position",4,5
+2016,"8-16","Car driver",2,"Car driver, passenger or unknown position",50,119
+2016,"17-25","Car driver",3,"Car driver, passenger or unknown position",3204,12441
+2016,"26-39","Car driver",4,"Car driver, passenger or unknown position",3496,14397
+2016,"40-64","Car driver",5,"Car driver, passenger or unknown position",4156,21980
+2016,"65-74","Car driver",6,"Car driver, passenger or unknown position",1120,8288
+2016,"75+","Car driver",7,"Car driver, passenger or unknown position",1164,12173
+2016,"0-7","Car passenger",1,"Car driver, passenger or unknown position",314,1357
+2016,"8-16","Car passenger",2,"Car driver, passenger or unknown position",605,1812
+2016,"17-25","Car passenger",3,"Car driver, passenger or unknown position",1466,7491
+2016,"26-39","Car passenger",4,"Car driver, passenger or unknown position",932,4711
+2016,"40-64","Car passenger",5,"Car driver, passenger or unknown position",990,5087
+2016,"65-74","Car passenger",6,"Car driver, passenger or unknown position",350,2186
+2016,"75+","Car passenger",7,"Car driver, passenger or unknown position",446,4264
+2016,"0-7","Car unknown position",1,"Car driver, passenger or unknown position",25,30
+2016,"8-16","Car unknown position",2,"Car driver, passenger or unknown position",28,56
+2016,"17-25","Car unknown position",3,"Car driver, passenger or unknown position",190,782
+2016,"26-39","Car unknown position",4,"Car driver, passenger or unknown position",197,1052
+2016,"40-64","Car unknown position",5,"Car driver, passenger or unknown position",239,1435
+2016,"65-74","Car unknown position",6,"Car driver, passenger or unknown position",65,675
+2016,"75+","Car unknown position",7,"Car driver, passenger or unknown position",64,1163
+2016,"8-16","Heavy transport driver",2,"Heavy transport driver, passenger or unknown position",1,1
+2016,"17-25","Heavy transport driver",3,"Heavy transport driver, passenger or unknown position",33,82
+2016,"26-39","Heavy transport driver",4,"Heavy transport driver, passenger or unknown position",80,420
+2016,"40-64","Heavy transport driver",5,"Heavy transport driver, passenger or unknown position",256,2529
+2016,"65-74","Heavy transport driver",6,"Heavy transport driver, passenger or unknown position",28,126
+2016,"75+","Heavy transport driver",7,"Heavy transport driver, passenger or unknown position",5,46
+2016,"0-7","Heavy transport passenger",1,"Heavy transport driver, passenger or unknown position",2,2
+2016,"17-25","Heavy transport passenger",3,"Heavy transport driver, passenger or unknown position",5,9
+2016,"26-39","Heavy transport passenger",4,"Heavy transport driver, passenger or unknown position",9,19
+2016,"40-64","Heavy transport passenger",5,"Heavy transport driver, passenger or unknown position",16,197
+2016,"65-74","Heavy transport passenger",6,"Heavy transport driver, passenger or unknown position",6,21
+2016,"75+","Heavy transport passenger",7,"Heavy transport driver, passenger or unknown position",4,25
+2016,"8-16","Heavy transport unknown position",2,"Heavy transport driver, passenger or unknown position",1,1
+2016,"17-25","Heavy transport unknown position",3,"Heavy transport driver, passenger or unknown position",7,51
+2016,"26-39","Heavy transport unknown position",4,"Heavy transport driver, passenger or unknown position",10,27
+2016,"40-64","Heavy transport unknown position",5,"Heavy transport driver, passenger or unknown position",19,294
+2016,"65-74","Heavy transport unknown position",6,"Heavy transport driver, passenger or unknown position",2,3
+2016,"0-7","Motorcyclist",1,"Motorcyclist",27,37
+2016,"8-16","Motorcyclist",2,"Motorcyclist",428,1233
+2016,"17-25","Motorcyclist",3,"Motorcyclist",2199,10306
+2016,"26-39","Motorcyclist",4,"Motorcyclist",2424,14978
+2016,"40-64","Motorcyclist",5,"Motorcyclist",3101,22547
+2016,"65-74","Motorcyclist",6,"Motorcyclist",263,3223
+2016,"75+","Motorcyclist",7,"Motorcyclist",84,901
+2016,"0-7","Other or unknown",1,"Other or unknown",21,44
+2016,"8-16","Other or unknown",2,"Other or unknown",31,67
+2016,"17-25","Other or unknown",3,"Other or unknown",116,591
+2016,"26-39","Other or unknown",4,"Other or unknown",139,633
+2016,"40-64","Other or unknown",5,"Other or unknown",222,1349
+2016,"65-74","Other or unknown",6,"Other or unknown",45,395
+2016,"75+","Other or unknown",7,"Other or unknown",46,892
+2016,"0-7","Pedal cyclist",1,"Pedal cyclist",202,285
+2016,"8-16","Pedal cyclist",2,"Pedal cyclist",993,1608
+2016,"17-25","Pedal cyclist",3,"Pedal cyclist",713,1458
+2016,"26-39","Pedal cyclist",4,"Pedal cyclist",1540,3302
+2016,"40-64","Pedal cyclist",5,"Pedal cyclist",2826,9915
+2016,"65-74","Pedal cyclist",6,"Pedal cyclist",480,2941
+2016,"75+","Pedal cyclist",7,"Pedal cyclist",150,1137
+2016,"0-7","Pedestrian",1,"Pedestrian",130,517
+2016,"8-16","Pedestrian",2,"Pedestrian",314,1577
+2016,"17-25","Pedestrian",3,"Pedestrian",454,3172
+2016,"26-39","Pedestrian",4,"Pedestrian",519,4676
+2016,"40-64","Pedestrian",5,"Pedestrian",719,9155
+2016,"65-74","Pedestrian",6,"Pedestrian",252,4207
+2016,"75+","Pedestrian",7,"Pedestrian",355,7189
+2016,"0-7","Pick-up truck or van occupant",1,"Pick-up truck or van occupant",7,9
+2016,"8-16","Pick-up truck or van occupant",2,"Pick-up truck or van occupant",12,17
+2016,"17-25","Pick-up truck or van occupant",3,"Pick-up truck or van occupant",66,403
+2016,"26-39","Pick-up truck or van occupant",4,"Pick-up truck or van occupant",73,762
+2016,"40-64","Pick-up truck or van occupant",5,"Pick-up truck or van occupant",105,803
+2016,"65-74","Pick-up truck or van occupant",6,"Pick-up truck or van occupant",25,182
+2016,"75+","Pick-up truck or van occupant",7,"Pick-up truck or van occupant",10,74
+2017,"0-7","Bus occupant",1,"Bus occupant",3,4
+2017,"8-16","Bus occupant",2,"Bus occupant",9,21
+2017,"17-25","Bus occupant",3,"Bus occupant",23,38
+2017,"26-39","Bus occupant",4,"Bus occupant",29,90
+2017,"40-64","Bus occupant",5,"Bus occupant",74,342
+2017,"65-74","Bus occupant",6,"Bus occupant",38,315
+2017,"75+","Bus occupant",7,"Bus occupant",89,723
+2017,"0-7","Car driver",1,"Car driver, passenger or unknown position",3,6
+2017,"8-16","Car driver",2,"Car driver, passenger or unknown position",62,203
+2017,"17-25","Car driver",3,"Car driver, passenger or unknown position",3239,11714
+2017,"26-39","Car driver",4,"Car driver, passenger or unknown position",3460,14289
+2017,"40-64","Car driver",5,"Car driver, passenger or unknown position",4221,18654
+2017,"65-74","Car driver",6,"Car driver, passenger or unknown position",1096,7576
+2017,"75+","Car driver",7,"Car driver, passenger or unknown position",1186,11076
+2017,"0-7","Car passenger",1,"Car driver, passenger or unknown position",344,1015
+2017,"8-16","Car passenger",2,"Car driver, passenger or unknown position",623,2288
+2017,"17-25","Car passenger",3,"Car driver, passenger or unknown position",1402,5842
+2017,"26-39","Car passenger",4,"Car driver, passenger or unknown position",934,4099
+2017,"40-64","Car passenger",5,"Car driver, passenger or unknown position",966,4874
+2017,"65-74","Car passenger",6,"Car driver, passenger or unknown position",381,2516
+2017,"75+","Car passenger",7,"Car driver, passenger or unknown position",452,4186
+2017,"0-7","Car unknown position",1,"Car driver, passenger or unknown position",15,45
+2017,"8-16","Car unknown position",2,"Car driver, passenger or unknown position",22,36
+2017,"17-25","Car unknown position",3,"Car driver, passenger or unknown position",180,690
+2017,"26-39","Car unknown position",4,"Car driver, passenger or unknown position",202,1345
+2017,"40-64","Car unknown position",5,"Car driver, passenger or unknown position",243,2133
+2017,"65-74","Car unknown position",6,"Car driver, passenger or unknown position",61,1007
+2017,"75+","Car unknown position",7,"Car driver, passenger or unknown position",54,1304
+2017,"17-25","Heavy transport driver",3,"Heavy transport driver, passenger or unknown position",41,123
+2017,"26-39","Heavy transport driver",4,"Heavy transport driver, passenger or unknown position",108,357
+2017,"40-64","Heavy transport driver",5,"Heavy transport driver, passenger or unknown position",263,2054
+2017,"65-74","Heavy transport driver",6,"Heavy transport driver, passenger or unknown position",35,184
+2017,"75+","Heavy transport driver",7,"Heavy transport driver, passenger or unknown position",0,9
+2017,"0-7","Heavy transport passenger",1,"Heavy transport driver, passenger or unknown position",1,1
+2017,"8-16","Heavy transport passenger",2,"Heavy transport driver, passenger or unknown position",2,2
+2017,"17-25","Heavy transport passenger",3,"Heavy transport driver, passenger or unknown position",15,48
+2017,"26-39","Heavy transport passenger",4,"Heavy transport driver, passenger or unknown position",7,17
+2017,"40-64","Heavy transport passenger",5,"Heavy transport driver, passenger or unknown position",15,61
+2017,"65-74","Heavy transport passenger",6,"Heavy transport driver, passenger or unknown position",3,15
+2017,"75+","Heavy transport passenger",7,"Heavy transport driver, passenger or unknown position",6,108
+2017,"8-16","Heavy transport unknown position",2,"Heavy transport driver, passenger or unknown position",1,1
+2017,"17-25","Heavy transport unknown position",3,"Heavy transport driver, passenger or unknown position",6,9
+2017,"26-39","Heavy transport unknown position",4,"Heavy transport driver, passenger or unknown position",4,7
+2017,"40-64","Heavy transport unknown position",5,"Heavy transport driver, passenger or unknown position",18,74
+2017,"65-74","Heavy transport unknown position",6,"Heavy transport driver, passenger or unknown position",2,6
+2017,"75+","Heavy transport unknown position",7,"Heavy transport driver, passenger or unknown position",1,5
+2017,"0-7","Motorcyclist",1,"Motorcyclist",35,56
+2017,"8-16","Motorcyclist",2,"Motorcyclist",442,1170
+2017,"17-25","Motorcyclist",3,"Motorcyclist",2163,10346
+2017,"26-39","Motorcyclist",4,"Motorcyclist",2478,14818
+2017,"40-64","Motorcyclist",5,"Motorcyclist",3202,22039
+2017,"65-74","Motorcyclist",6,"Motorcyclist",336,3290
+2017,"75+","Motorcyclist",7,"Motorcyclist",83,1046
+2017,"0-7","Other or unknown",1,"Other or unknown",11,18
+2017,"8-16","Other or unknown",2,"Other or unknown",36,78
+2017,"17-25","Other or unknown",3,"Other or unknown",118,448
+2017,"26-39","Other or unknown",4,"Other or unknown",143,746
+2017,"40-64","Other or unknown",5,"Other or unknown",196,1003
+2017,"65-74","Other or unknown",6,"Other or unknown",46,544
+2017,"75+","Other or unknown",7,"Other or unknown",50,1271
+2017,"0-7","Pedal cyclist",1,"Pedal cyclist",190,248
+2017,"8-16","Pedal cyclist",2,"Pedal cyclist",991,2122
+2017,"17-25","Pedal cyclist",3,"Pedal cyclist",788,1417
+2017,"26-39","Pedal cyclist",4,"Pedal cyclist",1570,3461
+2017,"40-64","Pedal cyclist",5,"Pedal cyclist",2897,10669
+2017,"65-74","Pedal cyclist",6,"Pedal cyclist",486,2517
+2017,"75+","Pedal cyclist",7,"Pedal cyclist",154,1156
+2017,"0-7","Pedestrian",1,"Pedestrian",134,493
+2017,"8-16","Pedestrian",2,"Pedestrian",300,1465
+2017,"17-25","Pedestrian",3,"Pedestrian",420,3784
+2017,"26-39","Pedestrian",4,"Pedestrian",513,4450
+2017,"40-64","Pedestrian",5,"Pedestrian",746,9629
+2017,"65-74","Pedestrian",6,"Pedestrian",275,4557
+2017,"75+","Pedestrian",7,"Pedestrian",326,7097
+2017,"0-7","Pick-up truck or van occupant",1,"Pick-up truck or van occupant",4,6
+2017,"8-16","Pick-up truck or van occupant",2,"Pick-up truck or van occupant",10,50
+2017,"17-25","Pick-up truck or van occupant",3,"Pick-up truck or van occupant",73,358
+2017,"26-39","Pick-up truck or van occupant",4,"Pick-up truck or van occupant",60,424
+2017,"40-64","Pick-up truck or van occupant",5,"Pick-up truck or van occupant",96,717
+2017,"65-74","Pick-up truck or van occupant",6,"Pick-up truck or van occupant",18,126
+2017,"75+","Pick-up truck or van occupant",7,"Pick-up truck or van occupant",10,158
+2018,"0-7","Bus occupant",1,"Bus occupant",2,2
+2018,"8-16","Bus occupant",2,"Bus occupant",12,14
+2018,"17-25","Bus occupant",3,"Bus occupant",25,69
+2018,"26-39","Bus occupant",4,"Bus occupant",32,72
+2018,"40-64","Bus occupant",5,"Bus occupant",57,355
+2018,"65-74","Bus occupant",6,"Bus occupant",45,267
+2018,"75+","Bus occupant",7,"Bus occupant",74,727
+2018,"0-7","Car driver",1,"Car driver, passenger or unknown position",3,97
+2018,"8-16","Car driver",2,"Car driver, passenger or unknown position",60,276
+2018,"17-25","Car driver",3,"Car driver, passenger or unknown position",3328,12193
+2018,"26-39","Car driver",4,"Car driver, passenger or unknown position",3615,13719
+2018,"40-64","Car driver",5,"Car driver, passenger or unknown position",4185,17728
+2018,"65-74","Car driver",6,"Car driver, passenger or unknown position",1172,7602
+2018,"75+","Car driver",7,"Car driver, passenger or unknown position",1232,11875
+2018,"0-7","Car passenger",1,"Car driver, passenger or unknown position",348,1016
+2018,"8-16","Car passenger",2,"Car driver, passenger or unknown position",680,2550
+2018,"17-25","Car passenger",3,"Car driver, passenger or unknown position",1387,6234
+2018,"26-39","Car passenger",4,"Car driver, passenger or unknown position",932,4171
+2018,"40-64","Car passenger",5,"Car driver, passenger or unknown position",978,4968
+2018,"65-74","Car passenger",6,"Car driver, passenger or unknown position",390,3013
+2018,"75+","Car passenger",7,"Car driver, passenger or unknown position",491,4607
+2018,"0-7","Car unknown position",1,"Car driver, passenger or unknown position",11,300
+2018,"8-16","Car unknown position",2,"Car driver, passenger or unknown position",26,39
+2018,"17-25","Car unknown position",3,"Car driver, passenger or unknown position",183,1217
+2018,"26-39","Car unknown position",4,"Car driver, passenger or unknown position",234,1255
+2018,"40-64","Car unknown position",5,"Car driver, passenger or unknown position",287,2033
+2018,"65-74","Car unknown position",6,"Car driver, passenger or unknown position",50,1343
+2018,"75+","Car unknown position",7,"Car driver, passenger or unknown position",73,1401
+2018,"17-25","Heavy transport driver",3,"Heavy transport driver, passenger or unknown position",48,268
+2018,"26-39","Heavy transport driver",4,"Heavy transport driver, passenger or unknown position",106,724
+2018,"40-64","Heavy transport driver",5,"Heavy transport driver, passenger or unknown position",251,1581
+2018,"65-74","Heavy transport driver",6,"Heavy transport driver, passenger or unknown position",25,123
+2018,"75+","Heavy transport driver",7,"Heavy transport driver, passenger or unknown position",7,36
+2018,"0-7","Heavy transport passenger",1,"Heavy transport driver, passenger or unknown position",4,4
+2018,"8-16","Heavy transport passenger",2,"Heavy transport driver, passenger or unknown position",6,20
+2018,"17-25","Heavy transport passenger",3,"Heavy transport driver, passenger or unknown position",9,32
+2018,"26-39","Heavy transport passenger",4,"Heavy transport driver, passenger or unknown position",19,45
+2018,"40-64","Heavy transport passenger",5,"Heavy transport driver, passenger or unknown position",26,102
+2018,"65-74","Heavy transport passenger",6,"Heavy transport driver, passenger or unknown position",2,9
+2018,"75+","Heavy transport passenger",7,"Heavy transport driver, passenger or unknown position",3,5
+2018,"17-25","Heavy transport unknown position",3,"Heavy transport driver, passenger or unknown position",7,77
+2018,"26-39","Heavy transport unknown position",4,"Heavy transport driver, passenger or unknown position",9,18
+2018,"40-64","Heavy transport unknown position",5,"Heavy transport driver, passenger or unknown position",27,495
+2018,"65-74","Heavy transport unknown position",6,"Heavy transport driver, passenger or unknown position",3,9
+2018,"75+","Heavy transport unknown position",7,"Heavy transport driver, passenger or unknown position",1,8
+2018,"0-7","Motorcyclist",1,"Motorcyclist",34,63
+2018,"8-16","Motorcyclist",2,"Motorcyclist",377,1186
+2018,"17-25","Motorcyclist",3,"Motorcyclist",1992,8889
+2018,"26-39","Motorcyclist",4,"Motorcyclist",2536,12864
+2018,"40-64","Motorcyclist",5,"Motorcyclist",3246,22653
+2018,"65-74","Motorcyclist",6,"Motorcyclist",352,4182
+2018,"75+","Motorcyclist",7,"Motorcyclist",86,1321
+2018,"0-7","Other or unknown",1,"Other or unknown",7,7
+2018,"8-16","Other or unknown",2,"Other or unknown",25,161
+2018,"17-25","Other or unknown",3,"Other or unknown",115,773
+2018,"26-39","Other or unknown",4,"Other or unknown",141,464
+2018,"40-64","Other or unknown",5,"Other or unknown",218,1251
+2018,"65-74","Other or unknown",6,"Other or unknown",48,723
+2018,"75+","Other or unknown",7,"Other or unknown",49,1019
+2018,"0-7","Pedal cyclist",1,"Pedal cyclist",184,271
+2018,"8-16","Pedal cyclist",2,"Pedal cyclist",945,1597
+2018,"17-25","Pedal cyclist",3,"Pedal cyclist",712,1485
+2018,"26-39","Pedal cyclist",4,"Pedal cyclist",1541,3522
+2018,"40-64","Pedal cyclist",5,"Pedal cyclist",2872,10020
+2018,"65-74","Pedal cyclist",6,"Pedal cyclist",510,2606
+2018,"75+","Pedal cyclist",7,"Pedal cyclist",195,1247
+2018,"0-7","Pedestrian",1,"Pedestrian",130,760
+2018,"8-16","Pedestrian",2,"Pedestrian",286,764
+2018,"17-25","Pedestrian",3,"Pedestrian",426,3138
+2018,"26-39","Pedestrian",4,"Pedestrian",500,3670
+2018,"40-64","Pedestrian",5,"Pedestrian",727,8861
+2018,"65-74","Pedestrian",6,"Pedestrian",265,3704
+2018,"75+","Pedestrian",7,"Pedestrian",327,5548
+2018,"0-7","Pick-up truck or van occupant",1,"Pick-up truck or van occupant",1,6
+2018,"8-16","Pick-up truck or van occupant",2,"Pick-up truck or van occupant",5,8
+2018,"17-25","Pick-up truck or van occupant",3,"Pick-up truck or van occupant",77,691
+2018,"26-39","Pick-up truck or van occupant",4,"Pick-up truck or van occupant",71,570
+2018,"40-64","Pick-up truck or van occupant",5,"Pick-up truck or van occupant",99,491
+2018,"65-74","Pick-up truck or van occupant",6,"Pick-up truck or van occupant",14,59
+2018,"75+","Pick-up truck or van occupant",7,"Pick-up truck or van occupant",12,69
+2019,"0-7","Bus occupant",1,"Bus occupant",3,4
+2019,"8-16","Bus occupant",2,"Bus occupant",4,8
+2019,"17-25","Bus occupant",3,"Bus occupant",21,43
+2019,"26-39","Bus occupant",4,"Bus occupant",33,91
+2019,"40-64","Bus occupant",5,"Bus occupant",83,204
+2019,"65-74","Bus occupant",6,"Bus occupant",50,202
+2019,"75+","Bus occupant",7,"Bus occupant",61,381
+2019,"0-7","Car driver",1,"Car driver, passenger or unknown position",5,9
+2019,"8-16","Car driver",2,"Car driver, passenger or unknown position",52,227
+2019,"17-25","Car driver",3,"Car driver, passenger or unknown position",3063,11531
+2019,"26-39","Car driver",4,"Car driver, passenger or unknown position",3488,12058
+2019,"40-64","Car driver",5,"Car driver, passenger or unknown position",4298,19069
+2019,"65-74","Car driver",6,"Car driver, passenger or unknown position",1226,7647
+2019,"75+","Car driver",7,"Car driver, passenger or unknown position",1350,10976
+2019,"0-7","Car passenger",1,"Car driver, passenger or unknown position",316,1327
+2019,"8-16","Car passenger",2,"Car driver, passenger or unknown position",603,2266
+2019,"17-25","Car passenger",3,"Car driver, passenger or unknown position",1294,6012
+2019,"26-39","Car passenger",4,"Car driver, passenger or unknown position",924,3368
+2019,"40-64","Car passenger",5,"Car driver, passenger or unknown position",979,4227
+2019,"65-74","Car passenger",6,"Car driver, passenger or unknown position",391,2834
+2019,"75+","Car passenger",7,"Car driver, passenger or unknown position",482,4088
+2019,"0-7","Car unknown position",1,"Car driver, passenger or unknown position",5,7
+2019,"8-16","Car unknown position",2,"Car driver, passenger or unknown position",16,73
+2019,"17-25","Car unknown position",3,"Car driver, passenger or unknown position",177,1298
+2019,"26-39","Car unknown position",4,"Car driver, passenger or unknown position",243,957
+2019,"40-64","Car unknown position",5,"Car driver, passenger or unknown position",236,1399
+2019,"65-74","Car unknown position",6,"Car driver, passenger or unknown position",63,1248
+2019,"75+","Car unknown position",7,"Car driver, passenger or unknown position",57,1315
+2019,"17-25","Heavy transport driver",3,"Heavy transport driver, passenger or unknown position",28,204
+2019,"26-39","Heavy transport driver",4,"Heavy transport driver, passenger or unknown position",108,487
+2019,"40-64","Heavy transport driver",5,"Heavy transport driver, passenger or unknown position",261,1722
+2019,"65-74","Heavy transport driver",6,"Heavy transport driver, passenger or unknown position",22,276
+2019,"75+","Heavy transport driver",7,"Heavy transport driver, passenger or unknown position",6,22
+2019,"8-16","Heavy transport passenger",2,"Heavy transport driver, passenger or unknown position",3,6
+2019,"17-25","Heavy transport passenger",3,"Heavy transport driver, passenger or unknown position",13,48
+2019,"26-39","Heavy transport passenger",4,"Heavy transport driver, passenger or unknown position",13,36
+2019,"40-64","Heavy transport passenger",5,"Heavy transport driver, passenger or unknown position",13,140
+2019,"65-74","Heavy transport passenger",6,"Heavy transport driver, passenger or unknown position",6,37
+2019,"75+","Heavy transport passenger",7,"Heavy transport driver, passenger or unknown position",4,15
+2019,"17-25","Heavy transport unknown position",3,"Heavy transport driver, passenger or unknown position",4,9
+2019,"26-39","Heavy transport unknown position",4,"Heavy transport driver, passenger or unknown position",12,99
+2019,"40-64","Heavy transport unknown position",5,"Heavy transport driver, passenger or unknown position",27,435
+2019,"65-74","Heavy transport unknown position",6,"Heavy transport driver, passenger or unknown position",4,8
+2019,"75+","Heavy transport unknown position",7,"Heavy transport driver, passenger or unknown position",0,6
+2019,"0-7","Motorcyclist",1,"Motorcyclist",34,210
+2019,"8-16","Motorcyclist",2,"Motorcyclist",462,1282
+2019,"17-25","Motorcyclist",3,"Motorcyclist",2158,10814
+2019,"26-39","Motorcyclist",4,"Motorcyclist",2476,13127
+2019,"40-64","Motorcyclist",5,"Motorcyclist",3278,23835
+2019,"65-74","Motorcyclist",6,"Motorcyclist",384,3008
+2019,"75+","Motorcyclist",7,"Motorcyclist",132,1555
+2019,"0-7","Other or unknown",1,"Other or unknown",12,28
+2019,"8-16","Other or unknown",2,"Other or unknown",21,37
+2019,"17-25","Other or unknown",3,"Other or unknown",127,707
+2019,"26-39","Other or unknown",4,"Other or unknown",153,520
+2019,"40-64","Other or unknown",5,"Other or unknown",189,1767
+2019,"65-74","Other or unknown",6,"Other or unknown",56,453
+2019,"75+","Other or unknown",7,"Other or unknown",62,1328
+2019,"0-7","Pedal cyclist",1,"Pedal cyclist",203,360
+2019,"8-16","Pedal cyclist",2,"Pedal cyclist",1041,1714
+2019,"17-25","Pedal cyclist",3,"Pedal cyclist",731,1849
+2019,"26-39","Pedal cyclist",4,"Pedal cyclist",1589,3972
+2019,"40-64","Pedal cyclist",5,"Pedal cyclist",2995,10121
+2019,"65-74","Pedal cyclist",6,"Pedal cyclist",565,3278
+2019,"75+","Pedal cyclist",7,"Pedal cyclist",178,1568
+2019,"0-7","Pedestrian",1,"Pedestrian",123,578
+2019,"8-16","Pedestrian",2,"Pedestrian",285,1211
+2019,"17-25","Pedestrian",3,"Pedestrian",428,3507
+2019,"26-39","Pedestrian",4,"Pedestrian",531,3948
+2019,"40-64","Pedestrian",5,"Pedestrian",714,8004
+2019,"65-74","Pedestrian",6,"Pedestrian",286,4179
+2019,"75+","Pedestrian",7,"Pedestrian",346,6962
+2019,"0-7","Pick-up truck or van occupant",1,"Pick-up truck or van occupant",3,4
+2019,"8-16","Pick-up truck or van occupant",2,"Pick-up truck or van occupant",8,12
+2019,"17-25","Pick-up truck or van occupant",3,"Pick-up truck or van occupant",58,341
+2019,"26-39","Pick-up truck or van occupant",4,"Pick-up truck or van occupant",71,329
+2019,"40-64","Pick-up truck or van occupant",5,"Pick-up truck or van occupant",97,388
+2019,"65-74","Pick-up truck or van occupant",6,"Pick-up truck or van occupant",15,188
+2019,"75+","Pick-up truck or van occupant",7,"Pick-up truck or van occupant",8,112
+2020,"8-16","Bus occupant",2,"Bus occupant",16,24
+2020,"17-25","Bus occupant",3,"Bus occupant",21,82
+2020,"26-39","Bus occupant",4,"Bus occupant",19,31
+2020,"40-64","Bus occupant",5,"Bus occupant",50,173
+2020,"65-74","Bus occupant",6,"Bus occupant",22,171
+2020,"75+","Bus occupant",7,"Bus occupant",45,362
+2020,"0-7","Car driver",1,"Car driver, passenger or unknown position",6,6
+2020,"8-16","Car driver",2,"Car driver, passenger or unknown position",66,312
+2020,"17-25","Car driver",3,"Car driver, passenger or unknown position",3070,9610
+2020,"26-39","Car driver",4,"Car driver, passenger or unknown position",3253,11392
+2020,"40-64","Car driver",5,"Car driver, passenger or unknown position",3716,17663
+2020,"65-74","Car driver",6,"Car driver, passenger or unknown position",984,6349
+2020,"75+","Car driver",7,"Car driver, passenger or unknown position",1122,9650
+2020,"0-7","Car passenger",1,"Car driver, passenger or unknown position",292,1340
+2020,"8-16","Car passenger",2,"Car driver, passenger or unknown position",529,2034
+2020,"17-25","Car passenger",3,"Car driver, passenger or unknown position",1275,6666
+2020,"26-39","Car passenger",4,"Car driver, passenger or unknown position",816,3031
+2020,"40-64","Car passenger",5,"Car driver, passenger or unknown position",794,4501
+2020,"65-74","Car passenger",6,"Car driver, passenger or unknown position",303,2896
+2020,"75+","Car passenger",7,"Car driver, passenger or unknown position",335,3034
+2020,"0-7","Car unknown position",1,"Car driver, passenger or unknown position",10,10
+2020,"8-16","Car unknown position",2,"Car driver, passenger or unknown position",25,47
+2020,"17-25","Car unknown position",3,"Car driver, passenger or unknown position",153,979
+2020,"26-39","Car unknown position",4,"Car driver, passenger or unknown position",211,931
+2020,"40-64","Car unknown position",5,"Car driver, passenger or unknown position",236,1439
+2020,"65-74","Car unknown position",6,"Car driver, passenger or unknown position",57,790
+2020,"75+","Car unknown position",7,"Car driver, passenger or unknown position",39,1514
+2020,"17-25","Heavy transport driver",3,"Heavy transport driver, passenger or unknown position",25,78
+2020,"26-39","Heavy transport driver",4,"Heavy transport driver, passenger or unknown position",122,872
+2020,"40-64","Heavy transport driver",5,"Heavy transport driver, passenger or unknown position",231,1383
+2020,"65-74","Heavy transport driver",6,"Heavy transport driver, passenger or unknown position",29,173
+2020,"75+","Heavy transport driver",7,"Heavy transport driver, passenger or unknown position",5,18
+2020,"0-7","Heavy transport passenger",1,"Heavy transport driver, passenger or unknown position",1,4
+2020,"8-16","Heavy transport passenger",2,"Heavy transport driver, passenger or unknown position",2,2
+2020,"17-25","Heavy transport passenger",3,"Heavy transport driver, passenger or unknown position",5,32
+2020,"26-39","Heavy transport passenger",4,"Heavy transport driver, passenger or unknown position",13,69
+2020,"40-64","Heavy transport passenger",5,"Heavy transport driver, passenger or unknown position",23,126
+2020,"65-74","Heavy transport passenger",6,"Heavy transport driver, passenger or unknown position",4,166
+2020,"0-7","Heavy transport unknown position",1,"Heavy transport driver, passenger or unknown position",1,1
+2020,"17-25","Heavy transport unknown position",3,"Heavy transport driver, passenger or unknown position",3,10
+2020,"26-39","Heavy transport unknown position",4,"Heavy transport driver, passenger or unknown position",13,23
+2020,"40-64","Heavy transport unknown position",5,"Heavy transport driver, passenger or unknown position",20,138
+2020,"65-74","Heavy transport unknown position",6,"Heavy transport driver, passenger or unknown position",3,11
+2020,"75+","Heavy transport unknown position",7,"Heavy transport driver, passenger or unknown position",0,39
+2020,"0-7","Motorcyclist",1,"Motorcyclist",32,116
+2020,"8-16","Motorcyclist",2,"Motorcyclist",535,1536
+2020,"17-25","Motorcyclist",3,"Motorcyclist",2102,8681
+2020,"26-39","Motorcyclist",4,"Motorcyclist",2501,12745
+2020,"40-64","Motorcyclist",5,"Motorcyclist",3062,19938
+2020,"65-74","Motorcyclist",6,"Motorcyclist",377,3272
+2020,"75+","Motorcyclist",7,"Motorcyclist",75,1388
+2020,"0-7","Other or unknown",1,"Other or unknown",13,24
+2020,"8-16","Other or unknown",2,"Other or unknown",33,56
+2020,"17-25","Other or unknown",3,"Other or unknown",131,575
+2020,"26-39","Other or unknown",4,"Other or unknown",117,447
+2020,"40-64","Other or unknown",5,"Other or unknown",198,886
+2020,"65-74","Other or unknown",6,"Other or unknown",53,567
+2020,"75+","Other or unknown",7,"Other or unknown",37,1109
+2020,"0-7","Pedal cyclist",1,"Pedal cyclist",258,347
+2020,"8-16","Pedal cyclist",2,"Pedal cyclist",1348,2569
+2020,"17-25","Pedal cyclist",3,"Pedal cyclist",768,1455
+2020,"26-39","Pedal cyclist",4,"Pedal cyclist",1681,3777
+2020,"40-64","Pedal cyclist",5,"Pedal cyclist",3331,10753
+2020,"65-74","Pedal cyclist",6,"Pedal cyclist",693,3758
+2020,"75+","Pedal cyclist",7,"Pedal cyclist",253,1975
+2020,"0-7","Pedestrian",1,"Pedestrian",100,291
+2020,"8-16","Pedestrian",2,"Pedestrian",234,1016
+2020,"17-25","Pedestrian",3,"Pedestrian",333,2262
+2020,"26-39","Pedestrian",4,"Pedestrian",396,3347
+2020,"40-64","Pedestrian",5,"Pedestrian",567,6146
+2020,"65-74","Pedestrian",6,"Pedestrian",234,3755
+2020,"75+","Pedestrian",7,"Pedestrian",239,4657
+2020,"0-7","Pick-up truck or van occupant",1,"Pick-up truck or van occupant",1,1
+2020,"8-16","Pick-up truck or van occupant",2,"Pick-up truck or van occupant",11,15
+2020,"17-25","Pick-up truck or van occupant",3,"Pick-up truck or van occupant",85,393
+2020,"26-39","Pick-up truck or van occupant",4,"Pick-up truck or van occupant",60,285
+2020,"40-64","Pick-up truck or van occupant",5,"Pick-up truck or van occupant",114,594
+2020,"65-74","Pick-up truck or van occupant",6,"Pick-up truck or van occupant",20,140
+2020,"75+","Pick-up truck or van occupant",7,"Pick-up truck or van occupant",9,108
+2021,"0-7","Bus occupant",1,"Bus occupant",1,1
+2021,"8-16","Bus occupant",2,"Bus occupant",8,11
+2021,"17-25","Bus occupant",3,"Bus occupant",10,62
+2021,"26-39","Bus occupant",4,"Bus occupant",20,36
+2021,"40-64","Bus occupant",5,"Bus occupant",58,100
+2021,"65-74","Bus occupant",6,"Bus occupant",28,248
+2021,"75+","Bus occupant",7,"Bus occupant",44,295
+2021,"0-7","Car driver",1,"Car driver, passenger or unknown position",9,22
+2021,"8-16","Car driver",2,"Car driver, passenger or unknown position",66,443
+2021,"17-25","Car driver",3,"Car driver, passenger or unknown position",3272,11912
+2021,"26-39","Car driver",4,"Car driver, passenger or unknown position",3571,13109
+2021,"40-64","Car driver",5,"Car driver, passenger or unknown position",4036,17530
+2021,"65-74","Car driver",6,"Car driver, passenger or unknown position",1119,6536
+2021,"75+","Car driver",7,"Car driver, passenger or unknown position",1254,11852
+2021,"0-7","Car passenger",1,"Car driver, passenger or unknown position",288,901
+2021,"8-16","Car passenger",2,"Car driver, passenger or unknown position",603,2551
+2021,"17-25","Car passenger",3,"Car driver, passenger or unknown position",1203,4748
+2021,"26-39","Car passenger",4,"Car driver, passenger or unknown position",813,3431
+2021,"40-64","Car passenger",5,"Car driver, passenger or unknown position",924,4275
+2021,"65-74","Car passenger",6,"Car driver, passenger or unknown position",287,1984
+2021,"75+","Car passenger",7,"Car driver, passenger or unknown position",377,3580
+2021,"0-7","Car unknown position",1,"Car driver, passenger or unknown position",13,178
+2021,"8-16","Car unknown position",2,"Car driver, passenger or unknown position",18,58
+2021,"17-25","Car unknown position",3,"Car driver, passenger or unknown position",179,1785
+2021,"26-39","Car unknown position",4,"Car driver, passenger or unknown position",192,909
+2021,"40-64","Car unknown position",5,"Car driver, passenger or unknown position",214,1611
+2021,"65-74","Car unknown position",6,"Car driver, passenger or unknown position",57,930
+2021,"75+","Car unknown position",7,"Car driver, passenger or unknown position",44,1291
+2021,"17-25","Heavy transport driver",3,"Heavy transport driver, passenger or unknown position",30,144
+2021,"26-39","Heavy transport driver",4,"Heavy transport driver, passenger or unknown position",109,808
+2021,"40-64","Heavy transport driver",5,"Heavy transport driver, passenger or unknown position",207,1171
+2021,"65-74","Heavy transport driver",6,"Heavy transport driver, passenger or unknown position",31,304
+2021,"75+","Heavy transport driver",7,"Heavy transport driver, passenger or unknown position",6,46
+2021,"0-7","Heavy transport passenger",1,"Heavy transport driver, passenger or unknown position",1,13
+2021,"8-16","Heavy transport passenger",2,"Heavy transport driver, passenger or unknown position",3,5
+2021,"17-25","Heavy transport passenger",3,"Heavy transport driver, passenger or unknown position",15,26
+2021,"26-39","Heavy transport passenger",4,"Heavy transport driver, passenger or unknown position",13,67
+2021,"40-64","Heavy transport passenger",5,"Heavy transport driver, passenger or unknown position",15,104
+2021,"65-74","Heavy transport passenger",6,"Heavy transport driver, passenger or unknown position",5,18
+2021,"75+","Heavy transport passenger",7,"Heavy transport driver, passenger or unknown position",4,4
+2021,"17-25","Heavy transport unknown position",3,"Heavy transport driver, passenger or unknown position",2,16
+2021,"26-39","Heavy transport unknown position",4,"Heavy transport driver, passenger or unknown position",12,35
+2021,"40-64","Heavy transport unknown position",5,"Heavy transport driver, passenger or unknown position",18,76
+2021,"65-74","Heavy transport unknown position",6,"Heavy transport driver, passenger or unknown position",4,14
+2021,"75+","Heavy transport unknown position",7,"Heavy transport driver, passenger or unknown position",0,20
+2021,"0-7","Motorcyclist",1,"Motorcyclist",36,53
+2021,"8-16","Motorcyclist",2,"Motorcyclist",575,1882
+2021,"17-25","Motorcyclist",3,"Motorcyclist",2020,9562
+2021,"26-39","Motorcyclist",4,"Motorcyclist",2479,11860
+2021,"40-64","Motorcyclist",5,"Motorcyclist",3259,21996
+2021,"65-74","Motorcyclist",6,"Motorcyclist",402,3296
+2021,"75+","Motorcyclist",7,"Motorcyclist",112,1272
+2021,"0-7","Other or unknown",1,"Other or unknown",14,20
+2021,"8-16","Other or unknown",2,"Other or unknown",45,343
+2021,"17-25","Other or unknown",3,"Other or unknown",105,458
+2021,"26-39","Other or unknown",4,"Other or unknown",137,636
+2021,"40-64","Other or unknown",5,"Other or unknown",194,1068
+2021,"65-74","Other or unknown",6,"Other or unknown",62,865
+2021,"75+","Other or unknown",7,"Other or unknown",44,890
+2021,"0-7","Pedal cyclist",1,"Pedal cyclist",217,371
+2021,"8-16","Pedal cyclist",2,"Pedal cyclist",1250,2325
+2021,"17-25","Pedal cyclist",3,"Pedal cyclist",727,1691
+2021,"26-39","Pedal cyclist",4,"Pedal cyclist",1542,4161
+2021,"40-64","Pedal cyclist",5,"Pedal cyclist",3393,11726
+2021,"65-74","Pedal cyclist",6,"Pedal cyclist",749,4661
+2021,"75+","Pedal cyclist",7,"Pedal cyclist",285,1830
+2021,"0-7","Pedestrian",1,"Pedestrian",123,435
+2021,"8-16","Pedestrian",2,"Pedestrian",283,916
+2021,"17-25","Pedestrian",3,"Pedestrian",338,2310
+2021,"26-39","Pedestrian",4,"Pedestrian",450,4097
+2021,"40-64","Pedestrian",5,"Pedestrian",622,6738
+2021,"65-74","Pedestrian",6,"Pedestrian",240,3791
+2021,"75+","Pedestrian",7,"Pedestrian",278,4446
+2021,"0-7","Pick-up truck or van occupant",1,"Pick-up truck or van occupant",5,6
+2021,"8-16","Pick-up truck or van occupant",2,"Pick-up truck or van occupant",12,29
+2021,"17-25","Pick-up truck or van occupant",3,"Pick-up truck or van occupant",109,460
+2021,"26-39","Pick-up truck or van occupant",4,"Pick-up truck or van occupant",85,339
+2021,"40-64","Pick-up truck or van occupant",5,"Pick-up truck or van occupant",86,619
+2021,"65-74","Pick-up truck or van occupant",6,"Pick-up truck or van occupant",34,445
+2021,"75+","Pick-up truck or van occupant",7,"Pick-up truck or van occupant",10,77
