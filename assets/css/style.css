@@ -1,0 +1,135 @@
+:root {
+  /* Colours (agreed palette) */
+  --c-main: #4C78A8;       /* single-series charts */
+  --c-highlight: #E45756;  /* the story point */
+  --c-muted: #BAB0AC;      /* everything else */
+
+  /* Page colours */
+  --c-bg: #F7F7F5;
+  --c-surface: #FFFFFF;
+  --c-text: #1F2328;
+  --c-text-soft: #5B636B;
+  --c-border: #E3E3DF;
+  --c-header: #1D2B3A;
+
+  /* Type and spacing */
+  --font: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --radius: 10px;
+  --gap: 24px;
+  --max-width: 1120px;
+}
+
+/* ---------- Base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 17px;
+  line-height: 1.55;
+  color: var(--c-text);
+  background: var(--c-bg);
+}
+
+h1, h2, h3 { line-height: 1.2; margin: 0 0 12px; }
+h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.1rem; }
+p  { margin: 0 0 12px; }
+a  { color: var(--c-main); }
+
+/* Accessibility: visible keyboard focus and a skip link */
+:focus-visible { outline: 3px solid var(--c-highlight); outline-offset: 2px; }
+.skip-link {
+  position: absolute; left: -9999px; top: 8px;
+  background: var(--c-surface); padding: 8px 12px; border-radius: var(--radius); z-index: 100;
+}
+.skip-link:focus { left: 8px; }
+
+.container { width: 100%; max-width: var(--max-width); margin: 0 auto; padding: 0 16px; }
+
+/* ---------- Header and navigation ---------- */
+.site-header { background: var(--c-header); color: #fff; }
+.site-header .container {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap; padding-top: 14px; padding-bottom: 14px;
+}
+.brand { color: #fff; text-decoration: none; font-weight: 700; font-size: 1.1rem; }
+.brand span { color: var(--c-muted); font-weight: 400; }
+
+.site-nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 4px; margin: 0; padding: 0; }
+.site-nav a {
+  display: block; padding: 6px 12px; border-radius: 999px;
+  color: #DCE3EA; text-decoration: none; font-size: 0.95rem;
+}
+.site-nav a:hover { background: rgba(255, 255, 255, 0.1); color: #fff; }
+.site-nav a[aria-current="page"] { background: #fff; color: var(--c-header); font-weight: 600; }
+
+/* ---------- Page intro ---------- */
+.page-intro { padding: 40px 0 16px; }
+.page-intro .eyebrow {
+  text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.8rem;
+  color: var(--c-highlight); font-weight: 700; margin-bottom: 8px;
+}
+.page-intro .lead { font-size: 1.15rem; color: var(--c-text-soft); max-width: 70ch; }
+
+/* ---------- Chart cards ---------- */
+.chart-grid { display: grid; gap: var(--gap); padding: 16px 0 48px; }
+.chart-grid.two { grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); }
+
+.card {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+.card .question { color: var(--c-text-soft); font-size: 0.95rem; margin-bottom: 12px; }
+
+.controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 12px; }
+.controls label { font-size: 0.9rem; color: var(--c-text-soft); }
+.controls select, .controls input, .controls button {
+  font: inherit; font-size: 0.9rem; padding: 6px 10px;
+  border: 1px solid var(--c-border); border-radius: 6px; background: var(--c-surface);
+}
+
+/* Each chart draws inside a .chart div. Placeholder style until a chart is added. */
+.chart { min-height: 320px; width: 100%; }
+.chart:empty {
+  display: grid; place-items: center;
+  border: 2px dashed var(--c-border); border-radius: var(--radius);
+  color: var(--c-text-soft); font-size: 0.9rem;
+}
+.chart:empty::after { content: "Chart goes here"; }
+
+.caveat { font-size: 0.85rem; color: var(--c-text-soft); margin-top: 10px; }
+.caveat::before { content: "ⓘ "; }
+
+/* ---------- KPI tiles (Home) ---------- */
+.kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+.kpi { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 18px; }
+.kpi .value { font-size: 2rem; font-weight: 700; line-height: 1.1; }
+.kpi .label { color: var(--c-text-soft); font-size: 0.9rem; }
+
+/* Page cards (Home) */
+.page-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; padding-bottom: 48px; }
+.page-card { display: block; text-decoration: none; color: inherit; }
+.page-card:hover { border-color: var(--c-main); }
+
+/* ---------- Tooltip (used by common.js) ---------- */
+.tooltip {
+  position: fixed; pointer-events: none; z-index: 50;
+  background: var(--c-text); color: #fff; font-size: 0.85rem;
+  padding: 6px 10px; border-radius: 6px; opacity: 0; transition: opacity 0.1s;
+  max-width: 260px;
+}
+
+/* ---------- Footer ---------- */
+.site-footer { border-top: 1px solid var(--c-border); padding: 24px 0; color: var(--c-text-soft); font-size: 0.85rem; }
+
+/* ---------- Small screens ---------- */
+@media (max-width: 640px) {
+  .chart-grid.two { grid-template-columns: 1fr; }
+  .page-intro { padding-top: 24px; }
+}
