@@ -25,29 +25,26 @@ The repo root is the website root, so the whole repo can be uploaded to Mercury 
 
 ```
 COS30045_Group29/
-├── index.html                 Home         (Teammate 1)
-├── who.html                   Who          (Teammate 2)
-├── how.html                   How          (Teammate 2)
-├── where.html                 Where        (Winson)
-├── time.html                  Over time    (Teammate 1)
-├── about.html                 About        (Winson)
+├── index.html                 Home         
+├── who.html                   Who          
+├── how.html                   How          
+├── where.html                 Where        
+├── time.html                  Over time    
+├── about.html                 About        
 ├── assets/
 │   ├── css/
-│   │   └── style.css          shared styles, colours as CSS variables (Teammate 1)
+│   │   └── style.css          shared styles, colours as CSS variables 
 │   ├── js/
-│   │   ├── common.js          shared helpers: tooltip, number format, colours, year filter (Teammate 1)
+│   │   ├── common.js          shared helpers: tooltip, number format, colours, year filter 
 │   │   └── pages/
-│   │       ├── home.js        (Teammate 1)
-│   │       ├── time.js        (Teammate 1)
-│   │       ├── who.js         (Teammate 2)
-│   │       ├── how.js         (Teammate 2)
-│   │       └── where.js       (Winson)
+│   │       ├── home.js        
+│   │       ├── time.js        
+│   │       ├── who.js         
+│   │       ├── how.js         
+│   │       └── where.js       
 │   └── img/                   logos, icons
 ├── data/                      cleaned CSVs exported from KNIME (do not edit by hand)
-│   └── geo/
-│       └── aus_states.geojson state boundaries for the Where map (to add)
 ├── README.md
-└── .gitignore
 ```
 
 Each HTML page loads three scripts in this order: D3, `assets/js/common.js`, then its own file in `assets/js/pages/`.
