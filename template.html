@@ -9,18 +9,19 @@
   <title>Page name | Not Just Fatalities</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.png">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<!-- CHANGE 2: data-page = index, who, how, where, time or about (highlights your page in the nav) -->
+<!-- CHANGE 2: data-page = who, how, where, time or about (highlights your page in the nav). Keep -->
 <body data-page="index">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- ===== Shared header and nav: do not change ===== -->
   <header class="site-header">
     <div class="container">
-      <a class="brand" href="index.html">Not Just Fatalities <span>| Road crash hospitalisations</span></a>
+      <a class="brand" href="index.html"><img src="assets/img/logo.png" alt="">Not Just Fatalities <span>| Road crash hospitalisations</span></a>
       <nav class="site-nav" aria-label="Main">
         <ul>
           <li><a href="index.html" data-page="index">Home</a></li>
@@ -38,7 +39,7 @@
     <!-- CHANGE 3: page intro (small label, heading, one-sentence lead) -->
     <section class="page-intro">
       <p class="eyebrow">Small label</p>
-      <h1>Page heading as a question</h1>
+      <h1>Page heading as a <span class="hl">question</span></h1>  <!-- wrap the key word in span.hl for the pink fade -->
       <p class="lead">One sentence saying what this page shows.</p>
     </section>
 

@@ -1,20 +1,23 @@
 :root {
-  /* Colours (agreed palette) */
-  --c-main: #4C78A8;       /* single-series charts */
-  --c-highlight: #E45756;  /* the story point */
-  --c-muted: #BAB0AC;      /* everything else */
+  color-scheme: dark;
+
+  /* Chart colours */
+  --c-main: #2997FF;       /* single-series charts */
+  --c-highlight: #FF375F;  /* the story point */
+  --c-muted: #7C7C80;      /* everything else */
 
   /* Page colours */
-  --c-bg: #F7F7F5;
-  --c-surface: #FFFFFF;
-  --c-text: #1F2328;
-  --c-text-soft: #5B636B;
-  --c-border: #E3E3DF;
-  --c-header: #1D2B3A;
+  --c-bg: #000000;
+  --c-surface: #1C1C1E;
+  --c-surface-2: #2C2C2E;  /* hover, inputs */
+  --c-text: #F5F5F7;
+  --c-text-soft: #A1A1A6;
+  --c-border: #38383A;
+  --c-header: rgba(22, 22, 23, 0.8);
 
-  /* Type and spacing */
-  --font: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
-  --radius: 10px;
+  /* Type and spacing (Apple devices get SF, everyone else Inter) */
+  --font: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", system-ui, sans-serif;
+  --radius: 22px;
   --gap: 24px;
   --max-width: 1120px;
 }
@@ -91,7 +94,7 @@ a  { color: var(--c-main); }
 .controls label { font-size: 0.9rem; color: var(--c-text-soft); }
 .controls select, .controls input, .controls button {
   font: inherit; font-size: 0.9rem; padding: 6px 10px;
-  border: 1px solid var(--c-border); border-radius: 6px; background: var(--c-surface);
+  border: 1px solid var(--c-border); border-radius: 10px; background: var(--c-surface-2); color: var(--c-text);
 }
 
 /* Each chart draws inside a .chart div. Placeholder style until a chart is added. */
@@ -120,7 +123,7 @@ a  { color: var(--c-main); }
 /* ---------- Tooltip (used by common.js) ---------- */
 .tooltip {
   position: fixed; pointer-events: none; z-index: 50;
-  background: var(--c-text); color: #fff; font-size: 0.85rem;
+  background: var(--c-text); color: var(--c-bg); font-size: 0.85rem;
   padding: 6px 10px; border-radius: 6px; opacity: 0; transition: opacity 0.1s;
   max-width: 260px;
 }
@@ -132,4 +135,45 @@ a  { color: var(--c-main); }
 @media (max-width: 640px) {
   .chart-grid.two { grid-template-columns: 1fr; }
   .page-intro { padding-top: 24px; }
+}
+
+/* ---------- Chart text and axes follow the theme ---------- */
+.chart svg text { fill: var(--c-text-soft); font-family: var(--font); font-size: 12px; }
+.chart .domain, .chart .tick line { stroke: var(--c-border); }
+
+/* ---------- Keynote Dark look ---------- */
+body { -webkit-font-smoothing: antialiased; }
+
+/* Frosted sticky header with the Pulse Road logo */
+.site-header {
+  position: sticky; top: 0; z-index: 10;
+  backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.brand { display: inline-flex; align-items: center; gap: 10px; color: var(--c-text); font-weight: 600; font-size: 1rem; }
+.brand img { width: 30px; height: 30px; }
+.brand span { color: var(--c-text-soft); }
+.site-nav a { color: var(--c-text); opacity: 0.8; font-size: 0.85rem; }
+.site-nav a:hover { background: none; opacity: 1; }
+.site-nav a[aria-current="page"] { background: none; color: var(--c-text); opacity: 1; font-weight: 600; }
+
+/* Big centred intro. Wrap the key word of the h1 in <span class="hl"> for the pink to purple fade */
+.page-intro { text-align: center; padding: 96px 0 64px; }
+.page-intro .eyebrow { color: var(--c-highlight); font-weight: 600; text-transform: none; letter-spacing: 0; font-size: 1.1rem; }
+.page-intro .lead { margin-inline: auto; font-size: 1.3rem; color: var(--c-text-soft); }
+h1 { font-size: clamp(2.8rem, 8vw, 5.6rem); font-weight: 700; letter-spacing: -0.045em; line-height: 1.04; color: var(--c-text); text-wrap: balance; }
+h1 .hl { background: linear-gradient(90deg, #FF375F, #BF5AF2); -webkit-background-clip: text; background-clip: text; color: transparent; }
+h2 { font-weight: 700; letter-spacing: -0.03em; font-size: 1.8rem; }
+
+/* Soft rounded cards */
+.card { border: none; padding: 32px; }
+.kpi { border: none; text-align: center; padding: 28px; }
+.kpi .value { font-size: 2.6rem; letter-spacing: -0.04em; }
+.kpi:first-child .value { color: var(--c-main); }
+.page-card:hover { background: var(--c-surface-2); }
+.caveat { border-radius: 14px; }
+.chart:empty { border-color: var(--c-surface-2); }
+
+@media (max-width: 640px) {
+  .page-intro { padding: 56px 0 40px; }
 }

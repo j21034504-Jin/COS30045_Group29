@@ -1,11 +1,13 @@
 const G29 = (() => {
-  // Agreed colours. Keep in sync with the CSS variables in style.css.
+  // Colours are read from the CSS variables in style.css, so changing the theme there updates every chart.
+  const css = getComputedStyle(document.documentElement);
+  const cssVar = (name, fallback) => css.getPropertyValue(name).trim() || fallback;
   const colours = {
-    main: "#4C78A8",
-    highlight: "#E45756",
-    muted: "#BAB0AC",
+    main: cssVar("--c-main", "#4C78A8"),
+    highlight: cssVar("--c-highlight", "#E45756"),
+    muted: cssVar("--c-muted", "#BAB0AC"),
     categories: d3.schemeTableau10,
-    sequential: d3.interpolateBlues,
+    sequential: d3.interpolateCividis, // colour-blind safe and readable on dark or light backgrounds
   };
 
   // Number formats: 410884 -> "410,884", 2007387 -> "2M", 0.16 -> "16%"
@@ -23,9 +25,12 @@ const G29 = (() => {
    * @param {string} name  file name without .csv, e.g. "who_age_sex"
    * @param {string} [errorTarget] CSS selector of the chart container
    */
+  // Pages inside /pages set <body data-root="../"> so data paths still work. index.html leaves it empty.
+  const ROOT = document.body.dataset.root || "";
+
   async function loadCSV(name, errorTarget) {
     try {
-      return await d3.csv(`data/${name}.csv`, d3.autoType);
+      return await d3.csv(`${ROOT}data/${name}.csv`, d3.autoType);
     } catch (err) {
       console.error(`Could not load data/${name}.csv`, err);
       if (errorTarget) {
