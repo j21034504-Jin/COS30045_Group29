@@ -53,7 +53,7 @@ The KNIME workflow and Design Book PDF are submitted on Canvas, not kept in this
 
 ## Rules
 
-- Only edit your own files. Ask Teammate 1 before changing `assets/css/style.css` or `assets/js/common.js`.
+- Only edit your own files. Ask Teammate before changing `assets/css/style.css` or `assets/js/common.js`.
 - Never edit files in `data/` by hand. If data needs to change, change the KNIME workflow and re-export.
 - Use D3 version 7: `https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js`
 - Load data with relative paths, e.g. `d3.csv("data/yearly_total.csv", d3.autoType)`, so the site works on Mercury.
