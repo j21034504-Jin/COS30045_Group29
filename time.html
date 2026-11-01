@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--
+  time.html — Over time page.
+  Owner: Soon Mung Hing. Made from template.html.
+  GenAI note: template generated with Claude (Anthropic) and reviewed by Group 29.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Not Just Fatalities: road crash hospitalisations in Australia, 2011–2021. COS30045 Group 29.">
+
+  <title>Over time | Not Just Fatalities</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Page-only styles (style.css is shared and not edited) -->
+  <style>
+    /* ---------- Toggle buttons (G29.toggle) ---------- */
+    .toggle { display: inline-flex; background: var(--c-surface-2); border-radius: 999px; padding: 3px; gap: 2px; }
+    .controls .toggle button {
+      border: none; background: none; border-radius: 999px; padding: 6px 14px; cursor: pointer; color: var(--c-text-soft);
+    }
+    .controls .toggle button[aria-pressed="true"] { background: var(--c-text); color: var(--c-bg); font-weight: 600; }
+
+    /* ---------- Chart notes and legends ---------- */
+    .chart .annotation { fill: var(--c-text); font-weight: 600; }
+    .chart .grid line { stroke: var(--c-surface-2); }
+    .chart .grid .domain { display: none; }
+    .finding { font-size: 1rem; color: var(--c-text); margin-top: 12px; }
+    .legend { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; padding: 0; list-style: none; }
+    .legend button {
+      font: inherit; font-size: 0.8rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+      background: var(--c-surface-2); color: var(--c-text-soft); border: 1px solid transparent; border-radius: 999px; padding: 4px 10px;
+    }
+    .legend button[aria-pressed="true"] { border-color: var(--c-main); color: var(--c-text); }
+    .legend .swatch { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+    .ramp { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 0.8rem; color: var(--c-text-soft); margin-top: 8px; }
+    .ramp span.bar { width: 160px; height: 10px; border-radius: 5px; }
+
+    /* Home: tiles show the label under the number, page cards are links */
+    .kpi .value { font-variant-numeric: tabular-nums; }
+    .page-card h3 { color: var(--c-text); }
+    .page-card p { color: var(--c-text-soft); font-size: 0.95rem; margin: 0; }
+    .page-card .go { color: var(--c-main); font-size: 0.9rem; margin-top: 10px; display: block; }
+    .section-title { margin: 32px 0 16px; }
+
+    /* Grid items may shrink below their content width, so long legends wrap instead of widening the page */
+    .chart-grid > *, .kpi-row > *, .page-cards > * { min-width: 0; }
+    @media (max-width: 640px) {
+      .card { padding: 20px; }
+      .kpi .value { font-size: 2rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      * { transition: none !important; animation: none !important; }
+    }
+  </style>
+</head>
+
+<body data-page="time">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Shared header and nav: do not change ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html"><img src="assets/img/logo.png" alt="">Not Just Fatalities <span>| Road crash hospitalisations</span></a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html" data-page="index">Home</a></li>
+          <li><a href="who.html" data-page="who">Who</a></li>
+          <li><a href="how.html" data-page="how">How</a></li>
+          <li><a href="where.html" data-page="where">Where</a></li>
+          <li><a href="time.html" data-page="time">Over time</a></li>
+          <li><a href="about.html" data-page="about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="page-intro">
+      <p class="eyebrow">Over time</p>
+      <h1>When are people <span class="hl">hurt</span>, and who is rising?</h1>
+      <p class="lead">Month by month and group by group, from 2011 to 2021: the seasons, the 2020 lockdown low, and the groups growing fastest.</p>
+    </section>
+
+    <section class="chart-grid">
+      <article class="card" aria-labelledby="chart-calendar-title">
+        <h2 id="chart-calendar-title">April 2020 was the quietest month in eleven years</h2>
+        <p class="question">Is there a time of year when road crash hospitalisations are higher, and what happened in 2020?</p>
+        <div class="chart" id="chart-calendar"></div>
+        <div class="ramp" id="chart-calendar-legend"></div>
+        <p class="caveat">Yellow cells mean more hospitalisations, dark blue fewer. Victoria (from July 2012) and New South Wales (from June 2017) changed how emergency patients are admitted, which lowers their counts after those dates.</p>
+      </article>
+
+      <article class="card" aria-labelledby="chart-groups-title">
+        <h2 id="chart-groups-title">Which groups grew fastest?</h2>
+        <p class="question">How has each group of people changed since 2011?</p>
+        <div class="controls" id="chart-groups-controls">
+          <label for="group-type">Compare by</label>
+          <select id="group-type">
+            <option value="road_user">Road user</option>
+            <option value="age_group">Age group</option>
+            <option value="sex">Sex</option>
+            <option value="remoteness">Remoteness</option>
+          </select>
+        </div>
+        <div class="chart" id="chart-groups"></div>
+        <ul class="legend" id="chart-groups-legend" aria-label="Groups: select one to highlight its line"></ul>
+        <p class="finding" id="chart-groups-finding" aria-live="polite"></p>
+        <p class="caveat">Index: each group's count divided by its own 2011 count, times 100. 150 means 50% more than in 2011. Remoteness leaves out cases with no recorded address.</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- ===== Shared footer: do not change ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Source: Bureau of Infrastructure and Transport Research Economics (BITRE), Hospitalised injury data 2011–2021. Built with D3.js by Group 29 for COS30045.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/pages/time.js"></script>
+</body>
+</html>
