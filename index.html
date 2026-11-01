@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
   index.html — Home page. Lives in the repo root so Mercury opens it first.
-  Owner: Soon. All pages sit next to this file in the repo root.
+  Owner: Soon Mung Hing. Made from template.html.
   GenAI note: template generated with Claude (Anthropic) and reviewed by Group 29.
 -->
 <html lang="en">
@@ -14,8 +14,51 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
-  <link rel="icon" type="image/svg+xml" href="assets/img/logo.png">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Page-only styles (style.css is shared and not edited) -->
+  <style>
+    /* ---------- Toggle buttons (G29.toggle) ---------- */
+    .toggle { display: inline-flex; background: var(--c-surface-2); border-radius: 999px; padding: 3px; gap: 2px; }
+    .controls .toggle button {
+      border: none; background: none; border-radius: 999px; padding: 6px 14px; cursor: pointer; color: var(--c-text-soft);
+    }
+    .controls .toggle button[aria-pressed="true"] { background: var(--c-text); color: var(--c-bg); font-weight: 600; }
+
+    /* ---------- Chart notes and legends ---------- */
+    .chart .annotation { fill: var(--c-text); font-weight: 600; }
+    .chart .grid line { stroke: var(--c-surface-2); }
+    .chart .grid .domain { display: none; }
+    .finding { font-size: 1rem; color: var(--c-text); margin-top: 12px; }
+    .legend { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; padding: 0; list-style: none; }
+    .legend button {
+      font: inherit; font-size: 0.8rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+      background: var(--c-surface-2); color: var(--c-text-soft); border: 1px solid transparent; border-radius: 999px; padding: 4px 10px;
+    }
+    .legend button[aria-pressed="true"] { border-color: var(--c-main); color: var(--c-text); }
+    .legend .swatch { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+    .ramp { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 0.8rem; color: var(--c-text-soft); margin-top: 8px; }
+    .ramp span.bar { width: 160px; height: 10px; border-radius: 5px; }
+
+    /* Home: tiles show the label under the number, page cards are links */
+    .kpi .value { font-variant-numeric: tabular-nums; }
+    .page-card h3 { color: var(--c-text); }
+    .page-card p { color: var(--c-text-soft); font-size: 0.95rem; margin: 0; }
+    .page-card .go { color: var(--c-main); font-size: 0.9rem; margin-top: 10px; display: block; }
+    .section-title { margin: 32px 0 16px; }
+
+    /* Grid items may shrink below their content width, so long legends wrap instead of widening the page */
+    .chart-grid > *, .kpi-row > *, .page-cards > * { min-width: 0; }
+    @media (max-width: 640px) {
+      .card { padding: 20px; }
+      .kpi .value { font-size: 2rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      * { transition: none !important; animation: none !important; }
+    }
+  </style>
 </head>
 
 <body data-page="index">
@@ -39,22 +82,38 @@
   </header>
 
   <main id="main" class="container">
-    <!-- CHANGE 3: page intro (small label, heading, one-sentence lead) -->
     <section class="page-intro">
-      <p class="eyebrow">Small label</p>
+      <p class="eyebrow">Australia, 2011–2021</p>
       <h1>Not Just <span class="hl">Fatalities</span></h1>
-      <p class="lead">One sentence saying what this page shows.</p>
+      <p class="lead">Road deaths make the news, but far more people survive a crash and end up in hospital. This site looks at who they are, how they were hurt and where it happened.</p>
     </section>
 
-    <!-- CHANGE 4: one card per chart. Copy the <article> block for each chart.
-         Use "chart-grid" for full-width cards, or "chart-grid two" for two side by side. -->
+    <section aria-label="Key numbers">
+      <div class="kpi-row">
+        <div class="kpi"><div class="value" id="kpi-hosp">0</div><div class="label">people hospitalised after a road crash, 2011–2021</div></div>
+        <div class="kpi"><div class="value" id="kpi-beddays">0</div><div class="label">days spent in hospital beds</div></div>
+        <div class="kpi"><div class="value" id="kpi-stay">0</div><div class="label">days average stay per person</div></div>
+        <div class="kpi"><div class="value" id="kpi-change">0</div><div class="label">more hospitalisations in 2021 than in 2011</div></div>
+      </div>
+    </section>
+
     <section class="chart-grid">
-      <article class="card" aria-labelledby="chart-example-title">
-        <h2 id="chart-example-title">Chart title</h2>
-        <p class="question">The question this chart answers.</p>
-        <div class="controls" id="chart-example-controls"><!-- filters and toggles go here --></div>
-        <div class="chart" id="chart-example"><!-- the D3 chart is drawn here --></div>
+      <article class="card" aria-labelledby="chart-headline-title">
+        <h2 id="chart-headline-title">Hospitalisations rose over the decade, apart from 2020</h2>
+        <p class="question">Are more Australians ending up in hospital after a road crash than ten years ago?</p>
+        <div class="controls" id="chart-headline-controls"></div>
+        <div class="chart" id="chart-headline"></div>
+        <p class="caveat" id="chart-headline-note"></p>
       </article>
+    </section>
+
+    <h2 class="section-title">Explore the story</h2>
+    <section class="page-cards" aria-label="Pages of this site">
+      <a class="card page-card" href="who.html"><h3>Who</h3><p>First Nations hospitalisations rose 89% in ten years, against 15% for non-Indigenous Australians.</p><span class="go">See who is hurt →</span></a>
+      <a class="card page-card" href="how.html"><h3>How</h3><p>Motorcyclists and pedal cyclists make up 41% of hospitalisations, more than car drivers (33%).</p><span class="go">See how people are hurt →</span></a>
+      <a class="card page-card" href="where.html"><h3>Where</h3><p>Queensland's count rose 65% and passed New South Wales in 2020.</p><span class="go">See where it happens →</span></a>
+      <a class="card page-card" href="time.html"><h3>Over time</h3><p>Cyclist injuries jumped 14% to a record 8,332 in 2020, the year total hospitalisations fell.</p><span class="go">See the trends →</span></a>
+      <a class="card page-card" href="about.html"><h3>About</h3><p>Where the data comes from, how it was cleaned, and what it cannot tell you.</p><span class="go">Read about the data →</span></a>
     </section>
   </main>
 
