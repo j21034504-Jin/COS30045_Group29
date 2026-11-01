@@ -5,17 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Not Just Fatalities: road crash hospitalisations in Australia, 2011–2021. COS30045 Group 29.">
 
-  <!-- CHANGE 1: page name before the | -->
-  <title>Page name | Not Just Fatalities</title>
+  <title>Who | Not Just Fatalities</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
   <link rel="icon" type="image/svg+xml" href="assets/img/logo.png">
   <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Who page only: segmented toggles, legends and chart labels */
+    .seg { display: inline-flex; background: var(--c-surface-2); border-radius: 999px; padding: 3px; gap: 2px; }
+    .controls .seg button { border: none; background: none; color: var(--c-text-soft); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+    .controls .seg button[aria-pressed="true"] { background: var(--c-text); color: var(--c-bg); font-weight: 600; }
+    .legend { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.85rem; color: var(--c-text-soft); margin-bottom: 8px; }
+    .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; background: var(--swatch); }
+    .chart svg .bar { outline: none; }
+    .chart svg .bar:hover, .chart svg .bar:focus-visible { stroke: var(--c-text); stroke-width: 2; }
+    .chart svg text.side-title { fill: var(--c-text); font-size: 13px; font-weight: 600; }
+    .chart svg text.age-label { fill: var(--c-text); font-size: 12px; }
+    .chart svg text.value { font-size: 11px; }
+    .chart svg text.end-label { font-size: 12px; font-weight: 600; }
+    .chart svg text.seg-label { font-size: 12px; font-weight: 600; pointer-events: none; }
+    .chart svg text.row-label { fill: var(--c-text); font-size: 13px; }
+    .chart svg text.note { fill: var(--c-text); font-size: 11px; }
+    .note-line { stroke: var(--c-text-soft); stroke-dasharray: 4 4; }
+  </style>
 </head>
 
-<!-- CHANGE 2: data-page = who, how, where, time or about (highlights your page in the nav). Keep -->
-<body data-page="index">
+<body data-page="who">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- ===== Shared header and nav: do not change ===== -->
@@ -36,21 +52,47 @@
   </header>
 
   <main id="main" class="container">
-    <!-- CHANGE 3: page intro (small label, heading, one-sentence lead) -->
     <section class="page-intro">
-      <p class="eyebrow">Small label</p>
-      <h1>Page heading as a <span class="hl">question</span></h1>  <!-- wrap the key word in span.hl for the pink fade -->
-      <p class="lead">One sentence saying what this page shows.</p>
+      <p class="eyebrow">Who is hurt</p>
+      <h1>Who ends up in <span class="hl">hospital</span>?</h1>
+      <p class="lead">Almost two in three people hospitalised by road crashes are men, and First Nations hospitalisations nearly doubled between 2011 and 2021.</p>
     </section>
 
-    <!-- CHANGE 4: one card per chart. Copy the <article> block for each chart.
-         Use "chart-grid" for full-width cards, or "chart-grid two" for two side by side. -->
     <section class="chart-grid">
-      <article class="card" aria-labelledby="chart-example-title">
-        <h2 id="chart-example-title">Chart title</h2>
-        <p class="question">The question this chart answers.</p>
-        <div class="controls" id="chart-example-controls"><!-- filters and toggles go here --></div>
-        <div class="chart" id="chart-example"><!-- the D3 chart is drawn here --></div>
+      <article class="card" aria-labelledby="pyramid-title">
+        <h2 id="pyramid-title">Age and sex</h2>
+        <p class="question">Which ages and sexes are hospitalised most, and who stays in hospital longest?</p>
+        <div class="controls" id="chart-pyramid-controls"></div>
+        <div class="chart" id="chart-pyramid"></div>
+        <div id="chart-pyramid-note"></div>
+      </article>
+    </section>
+
+    <section class="chart-grid two">
+      <article class="card" aria-labelledby="stay-title">
+        <h2 id="stay-title">Length of stay by age</h2>
+        <p class="question">Once in hospital, how long do people of each age stay on average?</p>
+        <div class="controls" id="chart-stay-controls"></div>
+        <div class="chart" id="chart-stay"></div>
+        <div id="chart-stay-note"></div>
+      </article>
+
+      <article class="card" aria-labelledby="fn-trend-title">
+        <h2 id="fn-trend-title">First Nations growth</h2>
+        <p class="question">How fast have First Nations hospitalisations grown compared with non-Indigenous Australians?</p>
+        <div class="controls" id="chart-fn-trend-controls"></div>
+        <div class="chart" id="chart-fn-trend"></div>
+        <div id="chart-fn-trend-note"></div>
+      </article>
+    </section>
+
+    <section class="chart-grid">
+      <article class="card" aria-labelledby="fn-area-title">
+        <h2 id="fn-area-title">Where each group lives</h2>
+        <p class="question">Do First Nations and non-Indigenous people hospitalised by crashes come from the same kinds of places?</p>
+        <div class="controls" id="chart-fn-area-controls"></div>
+        <div class="chart" id="chart-fn-area"></div>
+        <div id="chart-fn-area-note"></div>
       </article>
     </section>
   </main>
@@ -64,7 +106,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
   <script src="assets/js/common.js"></script>
-  <!-- CHANGE 5: your page's script -->
-  <script src="assets/js/pages/template.js"></script>
+  <script src="assets/js/pages/who.js"></script>
 </body>
 </html>
