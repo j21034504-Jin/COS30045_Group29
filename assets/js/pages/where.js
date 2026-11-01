@@ -280,16 +280,15 @@
   ], remoteMode, (v) => { remoteMode = v; drawRemote(); });
 
   function drawRemote() {
-    const { svg, g, width, height } = G29.makeSvg(remoteEl, { height: 340, margin: { top: 30, right: 110, bottom: 36, left: 60 } });
+    const narrow = document.querySelector(remoteEl).getBoundingClientRect().width < 500;
+    const { svg, g, width, height } = G29.makeSvg(remoteEl, { height: 340, margin: { top: 30, right: narrow ? 100 : 140, bottom: 36, left: narrow ? 44 : 60 } });
     svg.attr("aria-label", "Line chart of hospitalisations in Major Cities, Regional and Remote areas, 2011 to 2021");
     const x = d3.scaleLinear([FIRST, LAST], [0, width]);
     const maxV = d3.max(remoteRows, valueOf);
-    const y = remoteMode === "index"
-      ? d3.scaleLinear([Math.min(80, d3.min(remoteRows, valueOf)), Math.max(130, maxV)], [height, 0]).nice()
-      : d3.scaleLinear([0, maxV], [height, 0]).nice();
-    g.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x).ticks(width < 500 ? 5 : 11).tickFormat(d3.format("d")));
+    const y = d3.scaleLinear([0, remoteMode === "index" ? Math.max(130, maxV) : maxV], [height, 0]).nice();
+    g.append("g").attr("transform", `translate(0,${height})`).call((narrow ? d3.axisBottom(x).tickValues([2011, 2016, 2021]) : d3.axisBottom(x).ticks(11)).tickFormat(d3.format("d")));
     g.append("g").call(d3.axisLeft(y).ticks(6).tickFormat(remoteMode === "index" ? d3.format("d") : fmt.compact));
-    g.append("text").attr("x", -44).attr("y", -14)
+    g.append("text").attr("x", narrow ? -36 : -44).attr("y", -14)
       .text(remoteMode === "index" ? "Hospitalisations, 2011 = 100" : "Hospitalisations a year");
     if (remoteMode === "index") {
       g.append("line").attr("class", "note-line").attr("x1", 0).attr("x2", width).attr("y1", y(100)).attr("y2", y(100));
@@ -308,7 +307,7 @@
       const last = rows.find((d) => d.Year === LAST);
       const ch = last.Hospitalisations / remoteBase.get(a) - 1;
       g.append("text").attr("class", "end-label").attr("x", width + 8).attr("y", y(valueOf(last))).attr("dy", "0.35em")
-        .attr("fill", AREA_COLOUR[a]).text(`${a} ${ch > 0 ? "+" : ""}${fmt.percent(ch)}`);
+        .attr("fill", AREA_COLOUR[a]).text(`${narrow && a === "Major Cities" ? "Cities" : a} ${ch > 0 ? "+" : ""}${fmt.percent(ch)}`);
     }
   }
   caveatAfter(remoteEl, "Excludes 8,833 hospitalisations with no recorded remoteness. Counts, not rates.");
