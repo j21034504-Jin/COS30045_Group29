@@ -5,17 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Not Just Fatalities: road crash hospitalisations in Australia, 2011–2021. COS30045 Group 29.">
 
-  <!-- CHANGE 1: page name before the | -->
-  <title>Page name | Not Just Fatalities</title>
+  <title>How | Not Just Fatalities</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
   <link rel="icon" type="image/svg+xml" href="assets/img/logo.png">
   <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* How page only: segmented toggles, legends and chart labels */
+    .seg { display: inline-flex; flex-wrap: wrap; background: var(--c-surface-2); border-radius: 999px; padding: 3px; gap: 2px; }
+    .controls .seg button { border: none; background: none; color: var(--c-text-soft); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+    .controls .seg button[aria-pressed="true"] { background: var(--c-text); color: var(--c-bg); font-weight: 600; }
+    .legend { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.85rem; color: var(--c-text-soft); }
+    .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; background: var(--swatch); }
+    .chart svg .bar { outline: none; }
+    .chart svg .bar:hover, .chart svg .bar:focus-visible { stroke: var(--c-text); stroke-width: 2; }
+    .chart svg text.row-label { fill: var(--c-text); font-size: 13px; }
+    .chart svg text.value { font-size: 11px; }
+    .chart svg text.seg-label, .chart svg text.cell-label { font-size: 11px; font-weight: 600; pointer-events: none; }
+    .chart svg text.legend-title { fill: var(--c-text); font-size: 12px; }
+  </style>
 </head>
 
-<!-- CHANGE 2: data-page = who, how, where, time or about (highlights your page in the nav). Keep -->
-<body data-page="index">
+<body data-page="how">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- ===== Shared header and nav: do not change ===== -->
@@ -36,21 +48,35 @@
   </header>
 
   <main id="main" class="container">
-    <!-- CHANGE 3: page intro (small label, heading, one-sentence lead) -->
     <section class="page-intro">
-      <p class="eyebrow">Small label</p>
-      <h1>Page heading as a <span class="hl">question</span></h1>  <!-- wrap the key word in span.hl for the pink fade -->
-      <p class="lead">One sentence saying what this page shows.</p>
+      <p class="eyebrow">How it happens</p>
+      <h1>How are people <span class="hl">hurt</span>?</h1>
+      <p class="lead">Nearly half of everyone hospitalised was not inside a vehicle. Motorcyclists and cyclists are often hurt without hitting anything else at all.</p>
     </section>
 
-    <!-- CHANGE 4: one card per chart. Copy the <article> block for each chart.
-         Use "chart-grid" for full-width cards, or "chart-grid two" for two side by side. -->
     <section class="chart-grid">
-      <article class="card" aria-labelledby="chart-example-title">
-        <h2 id="chart-example-title">Chart title</h2>
-        <p class="question">The question this chart answers.</p>
-        <div class="controls" id="chart-example-controls"><!-- filters and toggles go here --></div>
-        <div class="chart" id="chart-example"><!-- the D3 chart is drawn here --></div>
+      <article class="card" aria-labelledby="users-title">
+        <h2 id="users-title">Road users</h2>
+        <p class="question">Who was on the road when they were hurt: drivers, passengers, riders or people on foot?</p>
+        <div class="controls" id="chart-users-controls"></div>
+        <div class="chart" id="chart-users"></div>
+        <div id="chart-users-note"></div>
+      </article>
+
+      <article class="card" aria-labelledby="counterparty-title">
+        <h2 id="counterparty-title">Hit by what?</h2>
+        <p class="question">What did each kind of road user collide with, if anything?</p>
+        <div class="controls" id="chart-counterparty-controls"></div>
+        <div class="chart" id="chart-counterparty"></div>
+        <div id="chart-counterparty-note"></div>
+      </article>
+
+      <article class="card" aria-labelledby="age-title">
+        <h2 id="age-title">Road users by age</h2>
+        <p class="question">How does the way people are hurt change from childhood to old age?</p>
+        <div class="controls" id="chart-age-controls"></div>
+        <div class="chart" id="chart-age"></div>
+        <div id="chart-age-note"></div>
       </article>
     </section>
   </main>
@@ -64,7 +90,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
   <script src="assets/js/common.js"></script>
-  <!-- CHANGE 5: your page's script -->
-  <script src="assets/js/pages/template.js"></script>
+  <script src="assets/js/pages/how.js"></script>
 </body>
 </html>
